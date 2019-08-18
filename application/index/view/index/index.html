@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>悬赏封印</title>
+	<link rel="stylesheet" href="__CSS__/bootstrap.min.css?v=1">
+	<script src="__JS__/jquery.min.js"></script>
+	<script src="__JS__/bootstrap.min.js"></script>
+</head>
+<body>
+	<center>
+		<h1>阴阳师悬赏封印</h1>
+		<h2>规划求解器</h2>
+	</center>
+	<br>
+	<br>
+	<br>
+	<div class="panel panel-default col-lg-10 col-lg-offset-1" style="padding: 0">
+		<div class="panel-heading">
+			筛选器
+		</div>
+		<div class="panel-body">
+			<div id="filter" class="row col-lg-8 col-lg-offset-2">
+				<div class="form-group container col-sm-4 col-lg-3">
+				    <label for="email" class="control-label">探索副本</label>	
+				    	<!-- 样式1 -->
+							<select class="form-control" style="width: auto; display: inline;" id="tansuofuben">
+							</select>
+				    		
+				</div>
+				<div class="form-group container col-sm-4 col-lg-3">
+				    <label for="email" class="control-label">允许挑战</label>	
+				    	<!-- 样式1 -->
+							<select class="form-control" style="width: auto; display: inline;" id="enable-challenge">
+								<option value="0">否</option>
+								<option value="1">是</option>
+							</select>
+				    		
+				</div>
+				<div class="form-group container col-sm-4 col-lg-3">
+				    <label for="email" class="control-label" >御魂副本</label>	
+				    	<!-- 样式1 -->
+							<select class="form-control" style="width: auto; display: inline;" id="yuhunfuben">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+							</select>
+				</div>
+
+				<table class="table table-bordered table-hover table-striped">
+					<thead>
+						<tr class="table-bordered">
+							<td style="border: none;"></td>
+							<td style="border: none; text-align: right;">秘闻</td>
+							<td style="border: none;">副本</td>
+							<td style="border: none;"></td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<div class="form-group">
+								    <label for="email" class="control-label miwen-label" id="label-0">红叶</label>	
+								    	<!-- 样式1 -->
+											<select class="form-control miwen" style="width: auto; display: inline;">
+												
+											</select>
+								</div>
+							</td>
+							<td>
+								<div class="form-group">
+								    <label for="email" class="control-label miwen-label" id="label-1">红叶</label>	
+								    	<!-- 样式1 -->
+											<select class="form-control miwen" style="width: auto; display: inline;">
+												
+											</select>
+								</div>
+							</td>
+							<td>
+								<div class="form-group">
+								    <label for="email" class="control-label miwen-label" id="label-2">红叶</label>	
+								    	<!-- 样式1 -->
+											<select class="form-control miwen" style="width: auto; display: inline;">
+												
+											</select>
+								</div>
+							</td>
+							<td>
+								<div class="form-group">
+								    <label for="email" class="control-label miwen-label" id="label-3">红叶</label>	
+								    	<!-- 样式1 -->
+											<select class="form-control miwen" style="width: auto; display: inline;">
+												
+											</select>
+								</div>
+							</td>
+							
+						</tr>
+						<tr>
+							<td>
+								<div class="form-group">
+								    <label for="email" class="control-label miwen-label" id="label-4">红叶</label>	
+								    	<!-- 样式1 -->
+											<select class="form-control miwen" style="width: auto; display: inline;">
+												
+											</select>
+								</div>
+							</td>
+							<td>
+								<div class="form-group">
+								    <label for="email" class="control-label miwen-label" id="label-5">红叶</label>	
+								    	<!-- 样式1 -->
+											<select class="form-control miwen" style="width: auto; display: inline;">
+												
+											</select>
+								</div>
+							</td>
+							<td>
+								<div class="form-group">
+								    <label for="email" class="control-label miwen-label" id="label-6">红叶</label>	
+								    	<!-- 样式1 -->
+											<select class="form-control miwen" style="width: auto; display: inline;">
+												
+											</select>
+								</div>
+							</td>
+							<td>
+								<div class="form-group">
+								    <label for="email" class="control-label miwen-label" id="label-7">红叶</label>	
+								    	<!-- 样式1 -->
+											<select class="form-control miwen" style="width: auto; display: inline;">
+												
+											</select>
+								</div>
+							</td>
+							
+						</tr>
+						<tr>
+							<td>
+								<div class="form-group">
+								    <label for="email" class="control-label miwen-label" id="label-8">红叶</label>	
+								    	<!-- 样式1 -->
+											<select class="form-control miwen" style="width: auto; display: inline;">
+												
+											</select>
+								</div>
+							</td>
+							<td>
+								<div class="form-group">
+								    <label for="email" class="control-label miwen-label" id="label-9">红叶</label>	
+								    	<!-- 样式1 -->
+											<select class="form-control miwen" style="width: auto; display: inline;">
+												
+											</select>
+								</div>
+							</td>
+							<td>
+								<div class="form-group">
+								    <label for="email" class="control-label miwen-label" id="label-10">红叶</label>	
+								    	<!-- 样式1 -->
+											<select class="form-control miwen" style="width: auto; display: inline;">
+												
+											</select>
+								</div>
+							</td>
+							<td>
+								<div class="form-group">
+								    <label for="email" class="control-label miwen-label" id="label-11">红叶</label>	
+								    	<!-- 样式1 -->
+											<select class="form-control miwen" style="width: auto; display: inline;">
+												
+											</select>
+								</div>
+							</td>
+							
+						</tr>
+						<tr>
+							<td>
+								<div class="form-group">
+								    <label for="email" class="control-label miwen-label" id="label-12">红叶</label>	
+								    	<!-- 样式1 -->
+											<select class="form-control miwen" style="width: auto; display: inline;">
+												
+											</select>
+								</div>
+							</td>
+							<td>
+								<div class="form-group">
+								    <label for="email" class="control-label miwen-label" id="label-13">红叶</label>	
+								    	<!-- 样式1 -->
+											<select class="form-control miwen" style="width: auto; display: inline;">
+												
+											</select>
+								</div>
+							</td>
+							<td>
+								<div class="form-group">
+								    <label for="email" class="control-label miwen-label" id="label-14">红叶</label>	
+								    	<!-- 样式1 -->
+											<select class="form-control miwen" style="width: auto; display: inline;">
+												
+											</select>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+
+
+				</div>
+			</div>
+
+
+	</div>
+
+	<div class="panel panel-default col-lg-10 col-lg-offset-1" style="padding: 0">
+		<div class="panel-heading">
+			<span>选择妖怪</span>
+		</div>
+		<div class="panel-body">
+			<button class="btn btn-sm btn-primary" id="add-line">添加一行</button>
+			<br>
+			<br>
+			<div id="monster-lines">
+				<div class="monster-line col-lg-12">
+					<div class="form-group container col-sm-4 col-lg-3">
+					    <label for="email" class="control-label">妖怪</label>	
+					    	<!-- 样式1 -->
+								<select class="form-control monster-select" style="width: auto; display: inline;">
+									
+								<option value="0">天邪鬼绿</option><option value="1">灯笼鬼</option><option value="2">跳跳犬</option><option value="3">提灯小僧</option><option value="4">九命猫</option><option value="5">盗墓小鬼</option><option value="6">寄生魂</option><option value="7">帚神</option><option value="8">座敷童子</option><option value="9">天邪鬼青</option><option value="10">天邪鬼黄</option><option value="11">涂壁</option><option value="12">童女</option><option value="13">赤舌</option><option value="14">鸦天狗</option><option value="15">兵俑</option><option value="16">凤凰火</option><option value="17">唐纸伞妖</option><option value="18">天邪鬼赤</option><option value="19">雨女</option><option value="20">青蛙瓷器</option><option value="21">黑豹</option><option value="22">管狐</option><option value="23">食发鬼</option><option value="24">蝴蝶精</option><option value="25">三尾狐</option><option value="26">巫蛊师</option><option value="27">鲤鱼精</option><option value="28">河童</option><option value="29">妖狐</option><option value="30">山童</option><option value="31">樱花妖</option><option value="32">雪女</option><option value="33">桃花妖</option><option value="34">铁鼠</option><option value="35">山兔</option><option value="36">饿鬼</option><option value="37">孟婆</option><option value="38">丑时之女</option><option value="39">傀儡师</option><option value="40">觉</option><option value="41">狸猫</option><option value="42">犬神</option><option value="43">酒吞童子</option><option value="44">跳跳哥哥</option><option value="45">骨女</option><option value="46">武士之灵</option><option value="47">独眼小僧</option><option value="48">鬼女红叶</option><option value="49">海坊主</option><option value="50">童男</option><option value="51">跳跳妹妹</option><option value="52">首无</option><option value="53">食梦貘</option><option value="54">大天狗</option><option value="55">判官</option><option value="56">鬼使黑</option><option value="57">鬼使白</option><option value="58">风小麒麟</option><option value="59">火小麒麟</option><option value="60">黑凤凰</option><option value="61">荒川之主</option><option value="62">清姬</option><option value="63">络新妇</option><option value="64">二口女</option><option value="65">古笼火</option><option value="66">八百比丘尼</option><option value="67">暗孔雀</option><option value="68">般若</option><option value="69">妖刀姬</option><option value="70">烟烟罗</option><option value="71">跳跳弟弟</option><option value="72">吸血姬</option><option value="73">夜叉</option><option value="74">萤草</option><option value="75">青坊主</option><option value="76">椒图</option><option value="77">惠比寿</option><option value="78">以津真天</option><option value="79">鸩</option><option value="80">兔丸</option><option value="81">百目鬼</option><option value="82">虫师</option><option value="83">万年竹</option><option value="84">追月神</option><option value="85">荒</option><option value="86">金鱼姬</option><option value="87">化鲸</option><option value="88">白童子</option><option value="89">黑童子</option><option value="90">阎魔</option><option value="91">面灵气</option><option value="92">镰鼬</option><option value="93">八歧大蛇</option><option value="94">妖琴师</option><option value="95">白狼</option><option value="96">茨木童子</option><option value="97">两面佛</option><option value="98">青行灯</option><option value="99">业原火</option><option value="100">奉为达摩</option><option value="101">招福达摩</option><option value="102">大吉达摩</option><option value="103">御行达摩</option><option value="104">小鹿男</option><option value="105">花鸟卷</option><option value="106">石距</option><option value="107">姑获鸟</option><option value="108">秘卷书童</option><option value="109">酒吞</option><option value="110">黑晴明</option><option value="111">一目连</option><option value="112">小松丸</option><option value="113">彼岸花</option><option value="114">匣中少女</option><option value="115">书翁</option><option value="116">九尾狐</option><option value="117">玉藻前</option><option value="118">辉夜姬</option><option value="119">数珠</option><option value="120">蝴蝶妖</option><option value="121">日和坊</option><option value="122">壁涂</option><option value="123">提灯小鬼</option><option value="124">食法鬼</option><option value="125">弈</option><option value="126">雪童子</option><option value="127">荒川</option><option value="128">山风</option><option value="129">小袖之手</option><option value="130">御馔津</option><option value="131">人面树</option><option value="132">薰</option></select>
+				    		
+					</div>
+					<div class="form-group container col-sm-6 col-lg-6">
+					    <label for="email" class="control-label">数量</label>	
+					    	<!-- 样式1 -->
+								<input type="number" class="form-control monster-number" style="width: auto; display: inline;" value='0'>
+				    		
+					</div>
+					<button class="btn btn-primary btn-sm btn-delete" >删除</button>
+				</div>
+				<div class="monster-line col-lg-12">
+					<div class="form-group container col-sm-4 col-lg-3">
+					    <label for="email" class="control-label">妖怪</label>	
+					    	<!-- 样式1 -->
+								<select class="form-control monster-select" style="width: auto; display: inline;">
+									
+								<option value="0">天邪鬼绿</option><option value="1">灯笼鬼</option><option value="2">跳跳犬</option><option value="3">提灯小僧</option><option value="4">九命猫</option><option value="5">盗墓小鬼</option><option value="6">寄生魂</option><option value="7">帚神</option><option value="8">座敷童子</option><option value="9">天邪鬼青</option><option value="10">天邪鬼黄</option><option value="11">涂壁</option><option value="12">童女</option><option value="13">赤舌</option><option value="14">鸦天狗</option><option value="15">兵俑</option><option value="16">凤凰火</option><option value="17">唐纸伞妖</option><option value="18">天邪鬼赤</option><option value="19">雨女</option><option value="20">青蛙瓷器</option><option value="21">黑豹</option><option value="22">管狐</option><option value="23">食发鬼</option><option value="24">蝴蝶精</option><option value="25">三尾狐</option><option value="26">巫蛊师</option><option value="27">鲤鱼精</option><option value="28">河童</option><option value="29">妖狐</option><option value="30">山童</option><option value="31">樱花妖</option><option value="32">雪女</option><option value="33">桃花妖</option><option value="34">铁鼠</option><option value="35">山兔</option><option value="36">饿鬼</option><option value="37">孟婆</option><option value="38">丑时之女</option><option value="39">傀儡师</option><option value="40">觉</option><option value="41">狸猫</option><option value="42">犬神</option><option value="43">酒吞童子</option><option value="44">跳跳哥哥</option><option value="45">骨女</option><option value="46">武士之灵</option><option value="47">独眼小僧</option><option value="48">鬼女红叶</option><option value="49">海坊主</option><option value="50">童男</option><option value="51">跳跳妹妹</option><option value="52">首无</option><option value="53">食梦貘</option><option value="54">大天狗</option><option value="55">判官</option><option value="56">鬼使黑</option><option value="57">鬼使白</option><option value="58">风小麒麟</option><option value="59">火小麒麟</option><option value="60">黑凤凰</option><option value="61">荒川之主</option><option value="62">清姬</option><option value="63">络新妇</option><option value="64">二口女</option><option value="65">古笼火</option><option value="66">八百比丘尼</option><option value="67">暗孔雀</option><option value="68">般若</option><option value="69">妖刀姬</option><option value="70">烟烟罗</option><option value="71">跳跳弟弟</option><option value="72">吸血姬</option><option value="73">夜叉</option><option value="74">萤草</option><option value="75">青坊主</option><option value="76">椒图</option><option value="77">惠比寿</option><option value="78">以津真天</option><option value="79">鸩</option><option value="80">兔丸</option><option value="81">百目鬼</option><option value="82">虫师</option><option value="83">万年竹</option><option value="84">追月神</option><option value="85">荒</option><option value="86">金鱼姬</option><option value="87">化鲸</option><option value="88">白童子</option><option value="89">黑童子</option><option value="90">阎魔</option><option value="91">面灵气</option><option value="92">镰鼬</option><option value="93">八歧大蛇</option><option value="94">妖琴师</option><option value="95">白狼</option><option value="96">茨木童子</option><option value="97">两面佛</option><option value="98">青行灯</option><option value="99">业原火</option><option value="100">奉为达摩</option><option value="101">招福达摩</option><option value="102">大吉达摩</option><option value="103">御行达摩</option><option value="104">小鹿男</option><option value="105">花鸟卷</option><option value="106">石距</option><option value="107">姑获鸟</option><option value="108">秘卷书童</option><option value="109">酒吞</option><option value="110">黑晴明</option><option value="111">一目连</option><option value="112">小松丸</option><option value="113">彼岸花</option><option value="114">匣中少女</option><option value="115">书翁</option><option value="116">九尾狐</option><option value="117">玉藻前</option><option value="118">辉夜姬</option><option value="119">数珠</option><option value="120">蝴蝶妖</option><option value="121">日和坊</option><option value="122">壁涂</option><option value="123">提灯小鬼</option><option value="124">食法鬼</option><option value="125">弈</option><option value="126">雪童子</option><option value="127">荒川</option><option value="128">山风</option><option value="129">小袖之手</option><option value="130">御馔津</option><option value="131">人面树</option><option value="132">薰</option></select>
+				    		
+					</div>
+					<div class="form-group container col-sm-6 col-lg-6">
+					    <label for="email" class="control-label">数量</label>	
+					    	<!-- 样式1 -->
+								<input type="number" class="form-control monster-number" style="width: auto; display: inline;" value='0'>
+				    		
+					</div>
+					<button class="btn btn-primary btn-sm btn-delete" >删除</button>
+				</div>
+				<div class="monster-line col-lg-12">
+					<div class="form-group container col-sm-4 col-lg-3">
+					    <label for="email" class="control-label">妖怪</label>	
+					    	<!-- 样式1 -->
+								<select class="form-control monster-select" style="width: auto; display: inline;">
+									
+								<option value="0">天邪鬼绿</option><option value="1">灯笼鬼</option><option value="2">跳跳犬</option><option value="3">提灯小僧</option><option value="4">九命猫</option><option value="5">盗墓小鬼</option><option value="6">寄生魂</option><option value="7">帚神</option><option value="8">座敷童子</option><option value="9">天邪鬼青</option><option value="10">天邪鬼黄</option><option value="11">涂壁</option><option value="12">童女</option><option value="13">赤舌</option><option value="14">鸦天狗</option><option value="15">兵俑</option><option value="16">凤凰火</option><option value="17">唐纸伞妖</option><option value="18">天邪鬼赤</option><option value="19">雨女</option><option value="20">青蛙瓷器</option><option value="21">黑豹</option><option value="22">管狐</option><option value="23">食发鬼</option><option value="24">蝴蝶精</option><option value="25">三尾狐</option><option value="26">巫蛊师</option><option value="27">鲤鱼精</option><option value="28">河童</option><option value="29">妖狐</option><option value="30">山童</option><option value="31">樱花妖</option><option value="32">雪女</option><option value="33">桃花妖</option><option value="34">铁鼠</option><option value="35">山兔</option><option value="36">饿鬼</option><option value="37">孟婆</option><option value="38">丑时之女</option><option value="39">傀儡师</option><option value="40">觉</option><option value="41">狸猫</option><option value="42">犬神</option><option value="43">酒吞童子</option><option value="44">跳跳哥哥</option><option value="45">骨女</option><option value="46">武士之灵</option><option value="47">独眼小僧</option><option value="48">鬼女红叶</option><option value="49">海坊主</option><option value="50">童男</option><option value="51">跳跳妹妹</option><option value="52">首无</option><option value="53">食梦貘</option><option value="54">大天狗</option><option value="55">判官</option><option value="56">鬼使黑</option><option value="57">鬼使白</option><option value="58">风小麒麟</option><option value="59">火小麒麟</option><option value="60">黑凤凰</option><option value="61">荒川之主</option><option value="62">清姬</option><option value="63">络新妇</option><option value="64">二口女</option><option value="65">古笼火</option><option value="66">八百比丘尼</option><option value="67">暗孔雀</option><option value="68">般若</option><option value="69">妖刀姬</option><option value="70">烟烟罗</option><option value="71">跳跳弟弟</option><option value="72">吸血姬</option><option value="73">夜叉</option><option value="74">萤草</option><option value="75">青坊主</option><option value="76">椒图</option><option value="77">惠比寿</option><option value="78">以津真天</option><option value="79">鸩</option><option value="80">兔丸</option><option value="81">百目鬼</option><option value="82">虫师</option><option value="83">万年竹</option><option value="84">追月神</option><option value="85">荒</option><option value="86">金鱼姬</option><option value="87">化鲸</option><option value="88">白童子</option><option value="89">黑童子</option><option value="90">阎魔</option><option value="91">面灵气</option><option value="92">镰鼬</option><option value="93">八歧大蛇</option><option value="94">妖琴师</option><option value="95">白狼</option><option value="96">茨木童子</option><option value="97">两面佛</option><option value="98">青行灯</option><option value="99">业原火</option><option value="100">奉为达摩</option><option value="101">招福达摩</option><option value="102">大吉达摩</option><option value="103">御行达摩</option><option value="104">小鹿男</option><option value="105">花鸟卷</option><option value="106">石距</option><option value="107">姑获鸟</option><option value="108">秘卷书童</option><option value="109">酒吞</option><option value="110">黑晴明</option><option value="111">一目连</option><option value="112">小松丸</option><option value="113">彼岸花</option><option value="114">匣中少女</option><option value="115">书翁</option><option value="116">九尾狐</option><option value="117">玉藻前</option><option value="118">辉夜姬</option><option value="119">数珠</option><option value="120">蝴蝶妖</option><option value="121">日和坊</option><option value="122">壁涂</option><option value="123">提灯小鬼</option><option value="124">食法鬼</option><option value="125">弈</option><option value="126">雪童子</option><option value="127">荒川</option><option value="128">山风</option><option value="129">小袖之手</option><option value="130">御馔津</option><option value="131">人面树</option><option value="132">薰</option></select>
+				    		
+					</div>
+					<div class="form-group container col-sm-6 col-lg-6">
+					    <label for="email" class="control-label">数量</label>	
+					    	<!-- 样式1 -->
+								<input type="number" class="form-control monster-number" style="width: auto; display: inline;" value='0'>
+				    		
+					</div>
+					<button class="btn btn-primary btn-sm btn-delete" >删除</button>
+				</div>
+				<div class="monster-line col-lg-12">
+					<div class="form-group container col-sm-4 col-lg-3">
+					    <label for="email" class="control-label">妖怪</label>	
+					    	<!-- 样式1 -->
+								<select class="form-control monster-select" style="width: auto; display: inline;">
+									
+								<option value="0">天邪鬼绿</option><option value="1">灯笼鬼</option><option value="2">跳跳犬</option><option value="3">提灯小僧</option><option value="4">九命猫</option><option value="5">盗墓小鬼</option><option value="6">寄生魂</option><option value="7">帚神</option><option value="8">座敷童子</option><option value="9">天邪鬼青</option><option value="10">天邪鬼黄</option><option value="11">涂壁</option><option value="12">童女</option><option value="13">赤舌</option><option value="14">鸦天狗</option><option value="15">兵俑</option><option value="16">凤凰火</option><option value="17">唐纸伞妖</option><option value="18">天邪鬼赤</option><option value="19">雨女</option><option value="20">青蛙瓷器</option><option value="21">黑豹</option><option value="22">管狐</option><option value="23">食发鬼</option><option value="24">蝴蝶精</option><option value="25">三尾狐</option><option value="26">巫蛊师</option><option value="27">鲤鱼精</option><option value="28">河童</option><option value="29">妖狐</option><option value="30">山童</option><option value="31">樱花妖</option><option value="32">雪女</option><option value="33">桃花妖</option><option value="34">铁鼠</option><option value="35">山兔</option><option value="36">饿鬼</option><option value="37">孟婆</option><option value="38">丑时之女</option><option value="39">傀儡师</option><option value="40">觉</option><option value="41">狸猫</option><option value="42">犬神</option><option value="43">酒吞童子</option><option value="44">跳跳哥哥</option><option value="45">骨女</option><option value="46">武士之灵</option><option value="47">独眼小僧</option><option value="48">鬼女红叶</option><option value="49">海坊主</option><option value="50">童男</option><option value="51">跳跳妹妹</option><option value="52">首无</option><option value="53">食梦貘</option><option value="54">大天狗</option><option value="55">判官</option><option value="56">鬼使黑</option><option value="57">鬼使白</option><option value="58">风小麒麟</option><option value="59">火小麒麟</option><option value="60">黑凤凰</option><option value="61">荒川之主</option><option value="62">清姬</option><option value="63">络新妇</option><option value="64">二口女</option><option value="65">古笼火</option><option value="66">八百比丘尼</option><option value="67">暗孔雀</option><option value="68">般若</option><option value="69">妖刀姬</option><option value="70">烟烟罗</option><option value="71">跳跳弟弟</option><option value="72">吸血姬</option><option value="73">夜叉</option><option value="74">萤草</option><option value="75">青坊主</option><option value="76">椒图</option><option value="77">惠比寿</option><option value="78">以津真天</option><option value="79">鸩</option><option value="80">兔丸</option><option value="81">百目鬼</option><option value="82">虫师</option><option value="83">万年竹</option><option value="84">追月神</option><option value="85">荒</option><option value="86">金鱼姬</option><option value="87">化鲸</option><option value="88">白童子</option><option value="89">黑童子</option><option value="90">阎魔</option><option value="91">面灵气</option><option value="92">镰鼬</option><option value="93">八歧大蛇</option><option value="94">妖琴师</option><option value="95">白狼</option><option value="96">茨木童子</option><option value="97">两面佛</option><option value="98">青行灯</option><option value="99">业原火</option><option value="100">奉为达摩</option><option value="101">招福达摩</option><option value="102">大吉达摩</option><option value="103">御行达摩</option><option value="104">小鹿男</option><option value="105">花鸟卷</option><option value="106">石距</option><option value="107">姑获鸟</option><option value="108">秘卷书童</option><option value="109">酒吞</option><option value="110">黑晴明</option><option value="111">一目连</option><option value="112">小松丸</option><option value="113">彼岸花</option><option value="114">匣中少女</option><option value="115">书翁</option><option value="116">九尾狐</option><option value="117">玉藻前</option><option value="118">辉夜姬</option><option value="119">数珠</option><option value="120">蝴蝶妖</option><option value="121">日和坊</option><option value="122">壁涂</option><option value="123">提灯小鬼</option><option value="124">食法鬼</option><option value="125">弈</option><option value="126">雪童子</option><option value="127">荒川</option><option value="128">山风</option><option value="129">小袖之手</option><option value="130">御馔津</option><option value="131">人面树</option><option value="132">薰</option></select>
+				    		
+					</div>
+					<div class="form-group container col-sm-6 col-lg-6">
+					    <label for="email" class="control-label">数量</label>	
+					    	<!-- 样式1 -->
+								<input type="number" class="form-control monster-number" style="width: auto; display: inline;" value='0'>
+				    		
+					</div>
+					<button class="btn btn-primary btn-sm btn-delete" >删除</button>
+				</div>					
+			</div>
+			<script type="text/html" id="monster-lines-script">
+				<div class="monster-line col-lg-12" >
+					<div class="form-group container col-sm-4 col-lg-3">
+					    <label for="email" class="control-label">妖怪</label>	
+					    	<!-- 样式1 -->
+								<select class="form-control monster-select" style="width: auto; display: inline;">
+									
+								<option value="0">天邪鬼绿</option><option value="1">灯笼鬼</option><option value="2">跳跳犬</option><option value="3">提灯小僧</option><option value="4">九命猫</option><option value="5">盗墓小鬼</option><option value="6">寄生魂</option><option value="7">帚神</option><option value="8">座敷童子</option><option value="9">天邪鬼青</option><option value="10">天邪鬼黄</option><option value="11">涂壁</option><option value="12">童女</option><option value="13">赤舌</option><option value="14">鸦天狗</option><option value="15">兵俑</option><option value="16">凤凰火</option><option value="17">唐纸伞妖</option><option value="18">天邪鬼赤</option><option value="19">雨女</option><option value="20">青蛙瓷器</option><option value="21">黑豹</option><option value="22">管狐</option><option value="23">食发鬼</option><option value="24">蝴蝶精</option><option value="25">三尾狐</option><option value="26">巫蛊师</option><option value="27">鲤鱼精</option><option value="28">河童</option><option value="29">妖狐</option><option value="30">山童</option><option value="31">樱花妖</option><option value="32">雪女</option><option value="33">桃花妖</option><option value="34">铁鼠</option><option value="35">山兔</option><option value="36">饿鬼</option><option value="37">孟婆</option><option value="38">丑时之女</option><option value="39">傀儡师</option><option value="40">觉</option><option value="41">狸猫</option><option value="42">犬神</option><option value="43">酒吞童子</option><option value="44">跳跳哥哥</option><option value="45">骨女</option><option value="46">武士之灵</option><option value="47">独眼小僧</option><option value="48">鬼女红叶</option><option value="49">海坊主</option><option value="50">童男</option><option value="51">跳跳妹妹</option><option value="52">首无</option><option value="53">食梦貘</option><option value="54">大天狗</option><option value="55">判官</option><option value="56">鬼使黑</option><option value="57">鬼使白</option><option value="58">风小麒麟</option><option value="59">火小麒麟</option><option value="60">黑凤凰</option><option value="61">荒川之主</option><option value="62">清姬</option><option value="63">络新妇</option><option value="64">二口女</option><option value="65">古笼火</option><option value="66">八百比丘尼</option><option value="67">暗孔雀</option><option value="68">般若</option><option value="69">妖刀姬</option><option value="70">烟烟罗</option><option value="71">跳跳弟弟</option><option value="72">吸血姬</option><option value="73">夜叉</option><option value="74">萤草</option><option value="75">青坊主</option><option value="76">椒图</option><option value="77">惠比寿</option><option value="78">以津真天</option><option value="79">鸩</option><option value="80">兔丸</option><option value="81">百目鬼</option><option value="82">虫师</option><option value="83">万年竹</option><option value="84">追月神</option><option value="85">荒</option><option value="86">金鱼姬</option><option value="87">化鲸</option><option value="88">白童子</option><option value="89">黑童子</option><option value="90">阎魔</option><option value="91">面灵气</option><option value="92">镰鼬</option><option value="93">八歧大蛇</option><option value="94">妖琴师</option><option value="95">白狼</option><option value="96">茨木童子</option><option value="97">两面佛</option><option value="98">青行灯</option><option value="99">业原火</option><option value="100">奉为达摩</option><option value="101">招福达摩</option><option value="102">大吉达摩</option><option value="103">御行达摩</option><option value="104">小鹿男</option><option value="105">花鸟卷</option><option value="106">石距</option><option value="107">姑获鸟</option><option value="108">秘卷书童</option><option value="109">酒吞</option><option value="110">黑晴明</option><option value="111">一目连</option><option value="112">小松丸</option><option value="113">彼岸花</option><option value="114">匣中少女</option><option value="115">书翁</option><option value="116">九尾狐</option><option value="117">玉藻前</option><option value="118">辉夜姬</option><option value="119">数珠</option><option value="120">蝴蝶妖</option><option value="121">日和坊</option><option value="122">壁涂</option><option value="123">提灯小鬼</option><option value="124">食法鬼</option><option value="125">弈</option><option value="126">雪童子</option><option value="127">荒川</option><option value="128">山风</option><option value="129">小袖之手</option><option value="130">御馔津</option><option value="131">人面树</option><option value="132">薰</option></select>
+				    		
+					</div>
+					<div class="form-group container col-sm-6 col-lg-6">
+					    <label for="email" class="control-label">数量</label>	
+					    	<!-- 样式1 -->
+								<input type="number" class="form-control monster-number" style="width: auto; display: inline;" value='0'>
+				    		
+					</div>
+					<button class="btn btn-primary btn-sm btn-delete">删除</button>
+				</div>
+			</script>
+
+		</div>
+	</div>
+	<div class="col-lg-10 col-lg-offset-1">
+		<center><button class="btn btn-primary" id="submit">计算</button></center>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<div class="panel panel-default col-lg-10 col-lg-offset-1" id="opt-panel" style="padding: 0; margin-top: 50px;">
+		<div class="panel-heading">求解结果</div>
+		<div class="panel-body" id="opt-result"></div>
+		<script type="text/html" id="opt-result-script">
+			<center><h5>所需体力：{{data['info']['opt']}}</h5></center>	
+			<table class="table table-bordered table-striped table-hover">
+				<thead>
+					<tr>
+						<td>关卡</td>
+						<td>妖怪</td>
+						<td>次数</td>
+					</tr>
+				</thead>
+				<tbody>
+					{{ each data['info']['combination'] arr }}
+					<tr>
+						<td>{{places[arr[0]]['关卡']}}</td>
+						<td>
+							{{ each places[arr[0]]['妖怪'] v key }}
+								{{ if monsterNeededNameList.indexOf(monsters.indexOf(key)) >= 0 }}
+								<strong>{{key}}</strong>× {{v}}
+								{{ else }}
+								<span>{{key}}</span>× {{v}}
+								{{ /if }}
+							{{ /each }}
+						</td>
+						<td>
+							{{arr[1]}}
+						</td>
+					</tr>
+					{{ /each }}
+				</tbody>
+			</table>
+			
+		</script>
+	</div>
+	<div class="col-lg-10 col-lg-offset-1" style="margin-top: 50px"> 
+		<center>Copyright ©2019 Powered by 雷帅实验室 Radium Lab</center>
+	</div>		
+<script src="__JS__/template.js"></script>
+<script src="__JS__/jquery.cookie.js"></script>
+<script>
+	$("#opt-panel").hide();
+	miwenList = ["红叶","妖刀","河童","雨女","荒川","大天狗","姑获鸟","镰鼬","小鹿男","海坊主","青行灯","吸血姬","妖狐","清姬","雪童子"];
+	for (var i = 0; i < miwenList.length; i++) {
+		$("#label-"+i).text(miwenList[i]);
+	}
+	for (var i = 0; i < 11; i++) {
+		$(".miwen").append("<option value='" + i +"'>" + i +"</option>");
+	}
+	for (var i = 1; i < 29; i++) {
+		$("#tansuofuben").append("<option value='" + i +"'>" + i +"</option>");
+	}
+
+	$(".panel-heading").click(function() {
+		$(this).parent().children(".panel-body").slideToggle();
+	});
+
+	monsters = ['天邪鬼绿', '灯笼鬼', '跳跳犬', '提灯小僧', '九命猫', '盗墓小鬼', '寄生魂', '帚神', '座敷童子', '天邪鬼青', '天邪鬼黄', '涂壁', '童女', '赤舌', '鸦天狗', '兵俑', '凤凰火', '唐纸伞妖', '天邪鬼赤', '雨女', '青蛙瓷器', '黑豹', '管狐', '食发鬼', '蝴蝶精', '三尾狐', '巫蛊师', '鲤鱼精', '河童', '妖狐', '山童', '樱花妖', '雪女', '桃花妖', '铁鼠', '山兔', '饿鬼', '孟婆', '丑时之女', '傀儡师', '觉', '狸猫', '犬神', '酒吞童子', '跳跳哥哥', '骨女', '武士之灵', '独眼小僧', '鬼女红叶', '海坊主', '童男', '跳跳妹妹', '首无', '食梦貘', '大天狗', '判官', '鬼使黑', '鬼使白', '风小麒麟', '火小麒麟', '黑凤凰', '荒川之主', '清姬', '络新妇', '二口女', '古笼火', '八百比丘尼', '暗孔雀', '般若', '妖刀姬', '烟烟罗', '跳跳弟弟', '吸血姬', '夜叉', '萤草', '青坊主', '椒图', '惠比寿', '以津真天', '鸩', '兔丸', '百目鬼', '虫师', '万年竹', '追月神', '荒', '金鱼姬', '化鲸', '白童子', '黑童子', '阎魔', '面灵气', '镰鼬', '八歧大蛇', '妖琴师', '白狼', '茨木童子', '两面佛', '青行灯', '业原火', '奉为达摩', '招福达摩', '大吉达摩', '御行达摩', '小鹿男', '花鸟卷', '石距', '姑获鸟', '秘卷书童', '酒吞', '黑晴明', '一目连', '小松丸', '彼岸花', '匣中少女', '书翁', '九尾狐', '玉藻前', '辉夜姬', '数珠', '蝴蝶妖', '日和坊', '壁涂', '提灯小鬼', '食法鬼', '弈', '雪童子', '荒川', '山风', '小袖之手', '御馔津', '人面树', '薰'];
+
+	//如果存在cookie
+	if($.cookie("previous")){
+		data = JSON.parse($.cookie("previous"));
+		$("#tansuofuben").val(data["tansuo"]);
+		$("#enable-challenge").val(data["enableChallenge"]?1:0);
+		$("#yuhunfuben").val(data["yuhun"]);
+		for (var i = 0; i < 15; i++) {
+			$(".miwen:eq("+i+")").val(data["miwen"][i]);
+		}
+	}
+
+	// for (var i = 0; i < monsters.length; i++) {
+	// 	$(".monster-select").append("<option value='"+ i + "'>"+monsters[i]+"</option>");
+	// }
+	var monsterNum = 4;
+
+	$("#add-line").click(function() {
+		$("#monster-lines").append(template("monster-lines-script",{}));
+		$(".btn-delete").click(function() {
+			$(this).parent().remove();
+		});
+		monsterNum++;
+	});
+
+	$(".btn-delete").click(function() {
+		$(this).parent().remove();
+		monsterNum--;
+	});
+
+
+
+	var places =[{'关卡': '第一章 雀食奇谭 天邪鬼绿1', '妖怪': {'天邪鬼绿': 1, '灯笼鬼': 2}}, {'关卡': '第一章 雀食奇谭 天邪鬼绿1(困难)', '妖怪': {'天邪鬼绿': 1, '跳跳犬': 2}}, {'关卡': '第一章 雀食奇谭 天邪鬼绿2', '妖怪': {'天邪鬼绿': 1, '提灯小僧': 2}}, {'关卡': '第一章 雀食奇谭 提灯小僧1', '妖怪': {'天邪鬼绿': 2, '提灯小僧': 1}}, {'关卡': '第一章 雀食奇谭 提灯小僧2', '妖怪': {'提灯小僧': 1, '灯笼鬼': 2}}, {'关卡': '第二章 幸福的彼岸 帚神', '妖怪': {'盗墓小鬼': 1, '寄生魂': 1, '帚神': 1}}, {'关卡': '第二章 幸福的彼岸 盗墓小鬼1', '妖怪': {'盗墓小鬼': 1, '寄生魂': 2}}, {'关卡': '第二章 幸福的彼岸 盗墓小鬼2', '妖怪': {'盗墓小鬼': 1, '灯笼鬼': 2}}, {'关卡': '第二章 幸福的彼岸 寄生魂1', '妖怪': {'寄生魂': 1, '灯笼鬼': 2}}, {'关卡': '第二章 幸福的彼岸 寄生魂2', '妖怪': {'盗墓小鬼': 2, '寄生魂': 1}}, {'关卡': '第三章 凤凰林的占卜师 天邪鬼黄1', '妖怪': {'天邪鬼黄': 1, '帚神': 2, '涂壁': 1}}, {'关卡': '第三章 凤凰林的占卜师 天邪鬼黄2', '妖怪': {'天邪鬼黄': 1, '童女': 3}}, {'关卡': '第三章 凤凰林的占卜师 赤舌1', '妖怪': {'赤舌': 1, '提灯小僧': 1, '灯笼鬼': 2, '鸦天狗': 1}}, {'关卡': '第三章 凤凰林的占卜师 赤舌2', '妖怪': {'赤舌': 1, '天邪鬼黄': 1, '童女': 2, '鸦天狗': 1}}, {'关卡': '第三章 凤凰林的占卜师 兵俑1', '妖怪': {'兵俑': 1, '提灯小僧': 1, '童女': 2}}, {'关卡': '第三章 凤凰林的占卜师 兵俑1(困难)', '妖怪': {'兵俑': 1, '提灯小僧': 2, '童女': 1}}, {'关卡': '第三章 凤凰林的占卜师 兵俑2', '妖怪': {'兵俑': 1, '提灯小僧': 1, '灯笼鬼': 2}}, {'关卡': '第四章 桥上的雨女 帚神1', '妖怪': {'帚神': 1, '涂壁': 2}}, {'关卡': '第四章 桥上的雨女 帚神2', '妖怪': {'帚神': 1, '涂壁': 1, '唐纸伞妖': 2}}, {'关卡': '第四章 桥上的雨女 帚神2(困难)', '妖怪': {'帚神': 1, '唐纸伞妖': 3}}, {'关卡': '第四章 桥上的雨女 唐纸伞妖1', '妖怪': {'唐纸伞妖': 1, '天邪鬼赤': 3}}, {'关卡': '第四章 桥上的雨女 唐纸伞妖2', '妖怪': {'唐纸伞妖': 1, '天邪鬼赤': 1, '涂壁': 2}}, {'关卡': '第四章 桥上的雨女 唐纸伞妖2(困难)', '妖怪': {'唐纸伞妖': 1, '涂壁': 3}}, {'关卡': '第四章 桥上的雨女 天邪鬼赤1', '妖怪': {'天邪鬼赤': 1, '唐纸伞妖': 1, '涂壁': 2}}, {'关卡': '第四章 桥上的雨女 天邪鬼赤1(困难)', '妖怪': {'天邪鬼赤': 1, '涂壁': 3}}, {'关卡': '第四章 桥上的雨女 天邪鬼赤2', '妖怪': {'天邪鬼赤': 1, '唐纸伞妖': 2}}, {'关卡': '第五章 黑夜山的食发鬼 涂壁1', '妖怪': {'涂壁': 1, '天邪鬼赤': 2, '黑豹': 1}}, {'关卡': '第五章 黑夜山的食发鬼 涂壁1(困难)', '妖怪': {'涂壁': 1, '天邪鬼赤': 2}}, {'关卡': '第五章 黑夜山的食发鬼 涂壁2', '妖怪': {'涂壁': 1, '天邪鬼赤': 3}}, {'关卡': '第五章 黑夜山的食发鬼 帚神1', '妖怪': {'帚神': 1, '天邪鬼赤': 1, '涂壁': 2}}, {'关卡': '第五章 黑夜山的食发鬼 帚神2', '妖怪': {'帚神': 1, '天邪鬼赤': 1, '天邪鬼黄': 2}}, {'关卡': '第五章 黑夜山的食发鬼 管狐1', '妖怪': {'管狐': 2, '天邪鬼黄': 2, '寄生魂': 1}}, {'关卡': '第五章 黑夜山的食发鬼 管狐2', '妖怪': {'管狐': 1, '天邪鬼绿': 3, '寄生魂': 1}}, {'关卡': '第六章 似梦非梦 灯笼鬼1', '妖怪': {'灯笼鬼': 1, '帚神': 3}}, {'关卡': '第六章 似梦非梦 灯笼鬼2', '妖怪': {'灯笼鬼': 1, '帚神': 3}}, {'关卡': '第六章 似梦非梦 天邪鬼青1', '妖怪': {'天邪鬼青': 1, '天邪鬼绿': 3}}, {'关卡': '第六章 似梦非梦 天邪鬼青2', '妖怪': {'天邪鬼青': 1, '天邪鬼绿': 3}}, {'关卡': '第六章 似梦非梦 蝴蝶精1', '妖怪': {'蝴蝶精': 1, '涂壁': 1, '天邪鬼赤': 2, '三尾狐': 1}}, {'关卡': '第六章 似梦非梦 蝴蝶精2', '妖怪': {'蝴蝶精': 1, '涂壁': 1, '天邪鬼赤': 2, '三尾狐': 1}}, {'关卡': '第七章 恋上鲤的美 鲤鱼精1', '妖怪': {'鲤鱼精': 3, '帚神': 1}}, {'关卡': '第七章 恋上鲤的美 鲤鱼精2', '妖怪': {'鲤鱼精': 1, '帚神': 3}}, {'关卡': '第七章 恋上鲤的美 河童1', '妖怪': {'河童': 1, '鲤鱼精': 1, '涂壁': 2}}, {'关卡': '第七章 恋上鲤的美 河童2', '妖怪': {'河童': 1, '灯笼鬼': 1, '跳跳犬': 2}}, {'关卡': '第七章 恋上鲤的美 提灯小僧1', '妖怪': {'提灯小僧': 1, '跳跳犬': 3, '管狐': 1}}, {'关卡': '第七章 恋上鲤的美 提灯小僧2', '妖怪': {'提灯小僧': 1, '跳跳犬': 3, '管狐': 1}}, {'关卡': '第七章 恋上鲤的美 提灯小僧3', '妖怪': {'提灯小僧': 1, '跳跳犬': 1, '鲤鱼精': 2}}, {'关卡': '第八章 樱与桃 唐纸伞妖1', '妖怪': {'唐纸伞妖': 1, '帚神': 3}}, {'关卡': '第八章 樱与桃 唐纸伞妖2', '妖怪': {'唐纸伞妖': 1, '山童': 1, '帚神': 2}}, {'关卡': '第八章 樱与桃 樱花妖1', '妖怪': {'樱花妖': 1, '帚神': 1, '涂壁': 2, '雪女': 1}}, {'关卡': '第八章 樱与桃 樱花妖2', '妖怪': {'樱花妖': 1, '涂壁': 3, '雪女': 1}}, {'关卡': '第八章 樱与桃 天邪鬼绿', '妖怪': {'天邪鬼绿': 1, '天邪鬼青': 1, '天邪鬼黄': 2}}, {'关卡': '第九章 兔蛙茶和锅 提灯小僧1', '妖怪': {'提灯小僧': 1, '灯笼鬼': 3}}, {'关卡': '第九章 兔蛙茶和锅 提灯小僧2', '妖怪': {'提灯小僧': 1, '灯笼鬼': 1, '铁鼠': 2}}, {'关卡': '第九章 兔蛙茶和锅 铁鼠1', '妖怪': {'铁鼠': 1, '帚神': 3}}, {'关卡': '第九章 兔蛙茶和锅 铁鼠2', '妖怪': {'铁鼠': 2, '帚神': 2}}, {'关卡': '第九章 兔蛙茶和锅 山兔1', '妖怪': {'山兔': 4, '鸦天狗': 1}}, {'关卡': '第九章 兔蛙茶和锅 山兔2', '妖怪': {'山兔': 3, '铁鼠': 1, '鸦天狗': 1}}, {'关卡': '第十章 鬼为谁买醉 丑时之女1', '妖怪': {'丑时之女': 1, '傀儡师': 1, '天邪鬼青': 2}}, {'关卡': '第十章 鬼为谁买醉 丑时之女2', '妖怪': {'丑时之女': 1, '傀儡师': 1, '天邪鬼青': 2}}, {'关卡': '第十章 鬼为谁买醉 傀儡师1', '妖怪': {'傀儡师': 1, '觉': 1, '狸猫': 2}}, {'关卡': '第十章 鬼为谁买醉 傀儡师2', '妖怪': {'傀儡师': 1, '觉': 1, '座敷童子': 2, '犬神': 1}}, {'关卡': '第十章 鬼为谁买醉 觉1', '妖怪': {'觉': 1, '狸猫': 3}}, {'关卡': '第十章 鬼为谁买醉 觉2', '妖怪': {'觉': 1, '赤舌': 1, '座敷童子': 2, '犬神': 1}}, {'关卡': '第十一章 染红了的枫叶林 武士之灵1', '妖怪': {'武士之灵': 1, '寄生魂': 3}}, {'关卡': '第十一章 染红了的枫叶林 武士之灵2', '妖怪': {'武士之灵': 1, '独眼小僧': 3}}, {'关卡': '第十一章 染红了的枫叶林 独眼小僧1', '妖怪': {'独眼小僧': 1, '涂壁': 1, '天邪鬼赤': 2}}, {'关卡': '第十一章 染红了的枫叶林 独眼小僧1(困难)', '妖怪': {'独眼小僧': 1, '涂壁': 1, '天邪鬼赤': 2}}, {'关卡': '第十一章 染红了的枫叶林 独眼小僧2', '妖怪': {'独眼小僧': 1, '管狐': 1, '天邪鬼赤': 2}}, {'关卡': '第十一章 染红了的枫叶林 独眼小僧2(困难)', '妖怪': {'独眼小僧': 1, '管狐': 1, '天邪鬼赤': 2}}, {'关卡': '第十一章 染红了的枫叶林 饿鬼1', '妖怪': {'饿鬼': 1, '涂壁': 1, '管狐': 2}}, {'关卡': '第十一章 染红了的枫叶林 饿鬼2', '妖怪': {'饿鬼': 3, '管狐': 1}}, {'关卡': '第十二章 另一个晴明 海坊主1', '妖怪': {'海坊主': 1, '帚神': 1, '涂壁': 2}}, {'关卡': '第十二章 另一个晴明 海坊主2', '妖怪': {'海坊主': 1, '涂壁': 1, '鸦天狗': 2}}, {'关卡': '第十二章 另一个晴明 童男1', '妖怪': {'童男': 1, '天邪鬼黄': 1, '鸦天狗': 2}}, {'关卡': '第十二章 另一个晴明 童男2', '妖怪': {'童男': 1, '童女': 1, '鸦天狗': 2}}, {'关卡': '第十二章 另一个晴明 童女1', '妖怪': {'童女': 1, '盗墓小鬼': 1, '提灯小僧': 2, '雪女': 1}}, {'关卡': '第十二章 另一个晴明 童女2', '妖怪': {'童女': 3, '盗墓小鬼': 1, '雪女': 1}}, {'关卡': '第十三章 箭与弓道 饿鬼1', '妖怪': {'饿鬼': 1, '天邪鬼赤': 3}}, {'关卡': '第十三章 箭与弓道 饿鬼2', '妖怪': {'饿鬼': 1, '天邪鬼赤': 3}}, {'关卡': '第十三章 箭与弓道 饿鬼3', '妖怪': {'饿鬼': 1, '天邪鬼赤': 3, '首无': 1}}, {'关卡': '第十三章 箭与弓道 唐纸伞妖1', '妖怪': {'唐纸伞妖': 1, '天邪鬼赤': 1, '天邪鬼绿': 2}}, {'关卡': '第十三章 箭与弓道 唐纸伞妖2', '妖怪': {'唐纸伞妖': 1, '天邪鬼赤': 1, '天邪鬼绿': 2}}, {'关卡': '第十三章 箭与弓道 唐纸伞妖3', '妖怪': {'唐纸伞妖': 1, '天邪鬼赤': 1, '天邪鬼绿': 2, '首无': 1}}, {'关卡': '第十四章 梦境的邂逅 帚神1', '妖怪': {'帚神': 1, '天邪鬼赤': 3}}, {'关卡': '第十四章 梦境的邂逅 帚神2', '妖怪': {'帚神': 1, '天邪鬼赤': 3}}, {'关卡': '第十四章 梦境的邂逅 帚神3', '妖怪': {'帚神': 1, '天邪鬼赤': 3}}, {'关卡': '第十四章 梦境的邂逅 涂壁1', '妖怪': {'涂壁': 6}}, {'关卡': '第十四章 梦境的邂逅 涂壁2', '妖怪': {'涂壁': 6}}, {'关卡': '第十四章 梦境的邂逅 涂壁3', '妖怪': {'涂壁': 6, '食梦貘': 1}}, {'关卡': '第十五章 阴界裂缝 天邪鬼绿1', '妖怪': {'天邪鬼绿': 1, '赤舌': 1, '天邪鬼赤': 2}}, {'关卡': '第十五章 阴界裂缝 天邪鬼绿2', '妖怪': {'天邪鬼绿': 1, '赤舌': 1, '天邪鬼赤': 2}}, {'关卡': '第十五章 阴界裂缝 天邪鬼绿3', '妖怪': {'天邪鬼绿': 1, '赤舌': 1, '天邪鬼赤': 2}}, {'关卡': '第十五章 阴界裂缝 提灯小僧1', '妖怪': {'提灯小僧': 1, '赤舌': 1, '九命猫': 2}}, {'关卡': '第十五章 阴界裂缝 提灯小僧2', '妖怪': {'提灯小僧': 1, '赤舌': 1, '九命猫': 2}}, {'关卡': '第十五章 阴界裂缝 提灯小僧3', '妖怪': {'提灯小僧': 1, '赤舌': 1, '九命猫': 2, '大天狗': 1}}, {'关卡': '第十六章 冥界审判 饿鬼1', '妖怪': {'饿鬼': 1, '山兔': 1, '山童': 2}}, {'关卡': '第十六章 冥界审判 饿鬼2', '妖怪': {'饿鬼': 1, '山兔': 1, '山童': 2}}, {'关卡': '第十六章 冥界审判 饿鬼3', '妖怪': {'饿鬼': 1, '山兔': 1, '山童': 2}}, {'关卡': '第十六章 冥界审判 赤舌1', '妖怪': {'赤舌': 1, '寄生魂': 3}}, {'关卡': '第十六章 冥界审判 赤舌2', '妖怪': {'赤舌': 1, '寄生魂': 3}}, {'关卡': '第十六章 冥界审判 赤舌3', '妖怪': {'赤舌': 1, '寄生魂': 3}}, {'关卡': '第十七章 阴阳逆反 鸦天狗1', '妖怪': {'鸦天狗': 1, '风小麒麟': 3}}, {'关卡': '第十七章 阴阳逆反 鸦天狗2', '妖怪': {'鸦天狗': 1, '风小麒麟': 3}}, {'关卡': '第十七章 阴阳逆反 鸦天狗3', '妖怪': {'鸦天狗': 1, '风小麒麟': 3}}, {'关卡': '第十七章 阴阳逆反 狸猫1', '妖怪': {'狸猫': 1, '火小麒麟': 3}}, {'关卡': '第十七章 阴阳逆反 狸猫2', '妖怪': {'狸猫': 1, '火小麒麟': 3}}, {'关卡': '第十七章 阴阳逆反 狸猫3', '妖怪': {'狸猫': 1, '火小麒麟': 3, '黑凤凰': 1}}, {'关卡': '第十八章 阴阳之理 九命猫1', '妖怪': {'九命猫': 6}}, {'关卡': '第十八章 阴阳之理 九命猫2', '妖怪': {'九命猫': 6}}, {'关卡': '第十八章 阴阳之理 九命猫3', '妖怪': {'九命猫': 6}}, {'关卡': '第十八章 阴阳之理 三尾狐1', '妖怪': {'三尾狐': 2, '九命猫': 2, '大天狗': 1}}, {'关卡': '第十八章 阴阳之理 三尾狐2', '妖怪': {'三尾狐': 2, '九命猫': 2}}, {'关卡': '第十八章 阴阳之理 三尾狐3', '妖怪': {'三尾狐': 2, '九命猫': 2}}, {'关卡': '第十九章 八岐大蛇的复活 清姬1', '妖怪': {'清姬': 3, '络新妇': 2, '二口女': 1}}, {'关卡': '第十九章 八岐大蛇的复活 清姬2', '妖怪': {'清姬': 1, '二口女': 3}}, {'关卡': '第十九章 八岐大蛇的复活 络新妇1', '妖怪': {'络新妇': 3, '清姬': 3}}, {'关卡': '第十九章 八岐大蛇的复活 络新妇2', '妖怪': {'络新妇': 2, '清姬': 2}}, {'关卡': '第十九章 八岐大蛇的复活 二口女1', '妖怪': {'二口女': 1, '络新妇': 4}}, {'关卡': '第十九章 八岐大蛇的复活 二口女2', '妖怪': {'二口女': 4}}, {'关卡': '第十九章 八岐大蛇的复活 二口女3', '妖怪': {'古笼火': 1, '二口女': 3, '络新妇': 2}}, {'关卡': '第二十章 赌上性命的仪式 般若1', '妖怪': {'般若': 4}}, {'关卡': '第二十章 赌上性命的仪式 般若2', '妖怪': {'般若': 1, '古笼火': 3, '凤凰火': 1}}, {'关卡': '第二十章 赌上性命的仪式 般若3', '妖怪': {'般若': 1, '古笼火': 3, '清姬': 2}}, {'关卡': '第二十章 赌上性命的仪式 古笼火1', '妖怪': {'古笼火': 1, '清姬': 1, '二口女': 2}}, {'关卡': '第二十章 赌上性命的仪式 古笼火2', '妖怪': {'古笼火': 1, '般若': 4, '二口女': 1}}, {'关卡': '第二十章 赌上性命的仪式 清姬1', '妖怪': {'清姬': 1, '般若': 3}}, {'关卡': '第二十章 赌上性命的仪式 清姬2', '妖怪': {'清姬': 1, '古笼火': 5}}, {'关卡': '第二十一章 七角山秘闻 烟烟罗1', '妖怪': {'武士之灵': 3, '烟烟罗': 1}}, {'关卡': '第二十一章 七角山秘闻 烟烟罗2', '妖怪': {'武士之灵': 2, '兵俑': 1, '烟烟罗': 1}}, {'关卡': '第二十一章 七角山秘闻 食发鬼1', '妖怪': {'丑时之女': 3, '食发鬼': 1}}, {'关卡': '第二十一章 七角山秘闻 食发鬼2', '妖怪': {'丑时之女': 2, '兵俑': 1, '食发鬼': 1}}, {'关卡': '第二十一章 七角山秘闻 食发鬼3', '妖怪': {'丑时之女': 2, '兵俑': 1, '食发鬼': 1}}, {'关卡': '第二十一章 七角山秘闻 吸血姬1', '妖怪': {'跳跳弟弟': 3, '吸血姬': 1, '夜叉': 1}}, {'关卡': '第二十一章 七角山秘闻 吸血姬2', '妖怪': {'跳跳弟弟': 2, '武士之灵': 1, '吸血姬': 1, '夜叉': 1}}, {'关卡': '第二十二章 八岐大蛇的秘谋 络新妇1', '妖怪': {'络新妇': 1, '烟烟罗': 2, '般若': 1}}, {'关卡': '第二十二章 八岐大蛇的秘谋 络新妇2', '妖怪': {'烟烟罗': 2, '络新妇': 1, '二口女': 1}}, {'关卡': '第二十二章 八岐大蛇的秘谋 络新妇3', '妖怪': {'二口女': 3, '络新妇': 1}}, {'关卡': '第二十二章 八岐大蛇的秘谋 青坊主1', '妖怪': {'二口女': 2, '青坊主': 1, '烟烟罗': 1}}, {'关卡': '第二十二章 八岐大蛇的秘谋 青坊主2', '妖怪': {'青坊主': 1, '般若': 3}}, {'关卡': '第二十二章 八岐大蛇的秘谋 二口女1', '妖怪': {'二口女': 3, '烟烟罗': 1, '络新妇': 1}}, {'关卡': '第二十二章 八岐大蛇的秘谋 二口女2', '妖怪': {'二口女': 2, '烟烟罗': 2, '青坊主': 1}}, {'关卡': '第二十三章 沉睡的傀儡师 孟婆1', '妖怪': {'山兔': 3, '孟婆': 1}}, {'关卡': '第二十三章 沉睡的傀儡师 孟婆2', '妖怪': {'山兔': 3, '孟婆': 1}}, {'关卡': '第二十三章 沉睡的傀儡师 孟婆3', '妖怪': {'山兔': 3, '孟婆': 1}}, {'关卡': '第二十三章 沉睡的傀儡师 盗墓小鬼1', '妖怪': {'座敷童子': 2, '河童': 1, '盗墓小鬼': 1}}, {'关卡': '第二十三章 沉睡的傀儡师 盗墓小鬼2', '妖怪': {'座敷童子': 2, '河童': 1, '盗墓小鬼': 1}}, {'关卡': '第二十三章 沉睡的傀儡师 骨女1', '妖怪': {'赤舌': 3, '骨女': 1}}, {'关卡': '第二十三章 沉睡的傀儡师 骨女2', '妖怪': {'赤舌': 3, '骨女': 1}}, {'关卡': '第二十四章 祭品巫女·前编 络新妇1', '妖怪': {'跳跳哥哥': 3, '络新妇': 1}}, {'关卡': '第二十四章 祭品巫女·前编 清姬1', '妖怪': {'鬼使黑': 2, '鬼使白': 1, '清姬': 1}}, {'关卡': '第二十四章 祭品巫女·前编 吸血姬1', '妖怪': {'海坊主': 3, '吸血姬': 1}}, {'关卡': '第二十四章 祭品巫女·前编 清姬2', '妖怪': {'鬼使黑': 2, '鬼使白': 1, '清姬': 1}}, {'关卡': '第二十四章 祭品巫女·前编 吸血姬2', '妖怪': {'海坊主': 3, '吸血姬': 1}}, {'关卡': '第二十四章 祭品巫女·前编 清姬3', '妖怪': {'鬼使黑': 2, '鬼使白': 1, '清姬': 1}}, {'关卡': '第二十四章 祭品巫女·前编 络新妇2', '妖怪': {'跳跳哥哥': 3, '络新妇': 1}}, {'关卡': '第二十五章 祭品巫女·后编 巫蛊师1', '妖怪': {'般若': 2, '九命猫': 1, '巫蛊师': 1}}, {'关卡': '第二十五章 祭品巫女·后编 巫蛊师2', '妖怪': {'武士之灵': 2, '独眼小僧': 1, '巫蛊师': 1}}, {'关卡': '第二十五章 祭品巫女·后编 以津真天1', '妖怪': {'古笼火': 2, '烟烟罗': 1, '以津真天': 1}}, {'关卡': '第二十五章 祭品巫女·后编 以津真天2', '妖怪': {'独眼小僧': 2, '蝴蝶精': 1, '以津真天': 1}}, {'关卡': '第二十五章 祭品巫女·后编 兵俑1', '妖怪': {'山兔': 2, '椒图': 1, '兵俑': 1}}, {'关卡': '第二十五章 祭品巫女·后编 兵俑2', '妖怪': {'山兔': 2, '椒图': 1, '兵俑': 1}}, {'关卡': '第二十五章 祭品巫女·后编 兵俑3', '妖怪': {'鸦天狗': 3, '兵俑': 1}}, {'关卡': '第二十六章 决战的终章 百目鬼1', '妖怪': {'兔丸': 2, '萤草': 1, '百目鬼': 1}}, {'关卡': '第二十六章 决战的终章 觉1', '妖怪': {'萤草': 1, '虫师': 1, '夜叉': 1, '觉': 1}}, {'关卡': '第二十六章 决战的终章 首无1', '妖怪': {'虫师': 2, '寄生魂': 1, '首无': 1}}, {'关卡': '第二十六章 决战的终章 首无2', '妖怪': {'虫师': 2, '寄生魂': 1, '首无': 1}}, {'关卡': '第二十六章 决战的终章 觉2', '妖怪': {'萤草': 1, '虫师': 1, '夜叉': 1, '觉': 1}}, {'关卡': '第二十六章 决战的终章 百目鬼2', '妖怪': {'兔丸': 2, '萤草': 1, '百目鬼': 1}}, {'关卡': '第二十六章 决战的终章 百目鬼3', '妖怪': {'兔丸': 2, '萤草': 1, '百目鬼': 1}}, {'关卡': '第二十七章 深海的孤独 金鱼姬1', '妖怪': {'海坊主': 3, '金鱼姬': 1}}, {'关卡': '第二十七章 深海的孤独 金鱼姬2', '妖怪': {'海坊主': 3, '金鱼姬': 1}}, {'关卡': '第二十七章 深海的孤独 鲤鱼精1', '妖怪': {'河童': 3, '鲤鱼精': 1}}, {'关卡': '第二十七章 深海的孤独 河童1', '妖怪': {'鲤鱼精': 3, '河童': 1}}, {'关卡': '第二十七章 深海的孤独 河童2', '妖怪': {'鲤鱼精': 3, '河童': 1}}, {'关卡': '第二十七章 深海的孤独 海坊主1', '妖怪': {'傀儡师': 3, '海坊主': 1}}, {'关卡': '第二十七章 深海的孤独 海坊主2', '妖怪': {'傀儡师': 3, '海坊主': 1}}, {'关卡': '第二十八章 少女与面具 跳跳妹妹1', '妖怪': {'跳跳犬': 3, '跳跳妹妹': 1}}, {'关卡': '第二十八章 少女与面具 傀儡师1', '妖怪': {'傀儡师': 3, '觉': 1}}, {'关卡': '第二十八章 少女与面具 傀儡师2', '妖怪': {'傀儡师': 3, '觉': 1}}, {'关卡': '第二十八章 少女与面具 判官1', '妖怪': {'判官': 2, '白童子': 1, '黑童子': 1}}, {'关卡': '第二十八章 少女与面具 荒1', '妖怪': {'跳跳妹妹': 3, '荒': 1}}, {'关卡': '第二十八章 少女与面具 阎魔1', '妖怪': {'鬼使黑': 2, '黑童子': 1, '阎魔': 1}}, {'关卡': '第二十八章 少女与面具 面灵气1', '妖怪': {'清姬': 1, '判官': 1, '食发鬼': 1, '面灵气': 1}}, {'关卡': '番外一 见习鬼使 鬼女红叶1', '妖怪': {'觉': 3, '天邪鬼青': 2, '鬼女红叶': 1}}, {'关卡': '番外一 见习鬼使 鬼女红叶2', '妖怪': {'觉': 3, '天邪鬼青': 2, '鬼女红叶': 1}}, {'关卡': '番外一 见习鬼使 山童1', '妖怪': {'山童': 1, '首无': 2, '河童': 3}}, {'关卡': '番外一 见习鬼使 山童2', '妖怪': {'山童': 1, '首无': 2, '河童': 3}}, {'关卡': '番外一 见习鬼使 古笼火1', '妖怪': {'管狐': 2, '犬神': 3, '古笼火': 1}}, {'关卡': '番外一 见习鬼使 古笼火2', '妖怪': {'管狐': 2, '犬神': 3, '古笼火': 1}}, {'关卡': '番外一 见习鬼使 古笼火3', '妖怪': {'管狐': 2, '犬神': 3, '古笼火': 1}}, {'关卡': '番外一 见习鬼使 酒吞童子(困难)', '妖怪': {'狸猫': 3, '首无': 2, '酒吞童子': 1}}, {'关卡': '第一章 雀食奇谭 挑战 天邪鬼绿', '妖怪': {'天邪鬼绿': '14'}}, {'关卡': '第一章 雀食奇谭 挑战 九命猫', '妖怪': {'九命猫': '14'}}, {'关卡': '第二章 幸福的彼岸 挑战 提灯小僧', '妖怪': {'提灯小僧': '14'}}, {'关卡': '第二章 幸福的彼岸 挑战 座敷童子', '妖怪': {'座敷童子': '14'}}, {'关卡': '第三章 凤凰林的占卜师 挑战 天邪鬼黄', '妖怪': {'天邪鬼黄': '14'}}, {'关卡': '第三章 凤凰林的占卜师 挑战 铁鼠', '妖怪': {'铁鼠': '14'}}, {'关卡': '第三章 凤凰林的占卜师 挑战 三尾狐', '妖怪': {'三尾狐': '14'}}, {'关卡': '第四章 桥上的雨女 挑战 雨女', '妖怪': {'雨女': '14'}}, {'关卡': '第四章 桥上的雨女 挑战 青蛙瓷器', '妖怪': {'青蛙瓷器': '14'}}, {'关卡': '第四章 桥上的雨女 挑战 管狐', '妖怪': {'管狐': '14'}}, {'关卡': '第五章 黑夜山的食发鬼 挑战 帚神', '妖怪': {'帚神': '14'}}, {'关卡': '第五章 黑夜山的食发鬼 挑战 食发鬼', '妖怪': {'食发鬼': '14'}}, {'关卡': '第六章 似梦非梦 挑战 灯笼鬼', '妖怪': {'灯笼鬼': '14'}}, {'关卡': '第六章 似梦非梦 挑战 巫蛊师', '妖怪': {'巫蛊师': '14'}}, {'关卡': '第六章 似梦非梦 挑战 蝴蝶精', '妖怪': {'蝴蝶精': '14'}}, {'关卡': '第七章 恋上鲤的美 挑战 天邪鬼赤', '妖怪': {'天邪鬼赤': '14'}}, {'关卡': '第七章 恋上鲤的美 挑战 鲤鱼精', '妖怪': {'鲤鱼精': '14'}}, {'关卡': '第七章 恋上鲤的美 挑战 河童', '妖怪': {'河童': '14'}}, {'关卡': '第八章 樱与桃 挑战 唐纸伞妖', '妖怪': {'唐纸伞妖': '14'}}, {'关卡': '第八章 樱与桃 挑战 桃花妖', '妖怪': {'桃花妖': '14'}}, {'关卡': '第九章 兔蛙茶和锅 挑战 天邪鬼青', '妖怪': {'天邪鬼青': '14'}}, {'关卡': '第九章 兔蛙茶和锅 挑战 山兔', '妖怪': {'山兔': '14'}}, {'关卡': '第十章 鬼为谁买醉 挑战 武士之灵', '妖怪': {'武士之灵': '14'}}, {'关卡': '第十章 鬼为谁买醉 挑战 丑时之女', '妖怪': {'丑时之女': '14'}}, {'关卡': '第十一章 染红了的枫叶林 挑战 寄生魂', '妖怪': {'寄生魂': '14'}}, {'关卡': '第十一章 染红了的枫叶林 挑战 饿鬼', '妖怪': {'饿鬼': '14'}}, {'关卡': '第十二章 另一个晴明 挑战 童男', '妖怪': {'童男': '14'}}, {'关卡': '第十二章 另一个晴明 挑战 童女', '妖怪': {'童女': '14'}}, {'关卡': '第十三章 箭与弓道 挑战 涂壁', '妖怪': {'涂壁': '14'}}, {'关卡': '第十三章 箭与弓道 挑战 兵俑', '妖怪': {'兵俑': '14'}}, {'关卡': '第十四章 梦境的邂逅 挑战 盗墓小鬼', '妖怪': {'盗墓小鬼': '14'}}, {'关卡': '第十四章 梦境的邂逅 挑战 狸猫', '妖怪': {'狸猫': '14'}}, {'关卡': '第十五章 阴界裂缝 挑战 跳跳弟弟', '妖怪': {'跳跳弟弟': '14'}}, {'关卡': '第十五章 阴界裂缝 挑战 跳跳妹妹', '妖怪': {'跳跳妹妹': '14'}}, {'关卡': '第十六章 冥界审判 挑战 赤舌', '妖怪': {'赤舌': '14'}}, {'关卡': '第十六章 冥界审判 挑战 山童', '妖怪': {'山童': '14'}}, {'关卡': '第十七章 阴阳逆反 挑战 萤草', '妖怪': {'萤草': '14'}}, {'关卡': '第十七章 阴阳逆反 挑战 鸦天狗', '妖怪': {'鸦天狗': '14'}}, {'关卡': '第十八章 阴阳之理 挑战 独眼小僧', '妖怪': {'独眼小僧': '14'}}, {'关卡': '第十八章 阴阳之理 挑战 觉', '妖怪': {'觉': '14'}}, {'关卡': '第十八章 阴阳之理 挑战 镰鼬', '妖怪': {'镰鼬': '14'}}, {'关卡': '御魂副本 第一层 ', '妖怪': {'三尾狐': 1, '天邪鬼黄': 1, '天邪鬼青': 1, '山童': 1, '涂壁': 1, '独眼小僧': 1, '八歧大蛇': 1, '天邪鬼赤': 2}}, {'关卡': '御魂副本 第二层 ', '妖怪': {'妖狐': 1, '鲤鱼精': 1, '河童': 1, '吸血姬': 1, '萤草': 1, '兵俑': 1, '八歧大蛇': 1, '童女': 2}}, {'关卡': '御魂副本 第三层 ', '妖怪': {'桃花妖': 1, '蝴蝶精': 1, '青蛙瓷器': 1, '海坊主': 1, '鲤鱼精': 1, '椒图': 1, '八歧大蛇': 1, '座敷童子': 2}}, {'关卡': '御魂副本 第四层 ', '妖怪': {'犬神': 1, '童男': 1, '童女': 1, '大天狗': 1, '鬼使黑': 1, '鬼使白': 1, '八歧大蛇': 1, '食梦貘': 2}}, {'关卡': '御魂副本 第五层 ', '妖怪': {'镰鼬': 1, '骨女': 1, '丑时之女': 1, '傀儡师': 1, '跳跳哥哥': 1, '独眼小僧': 1, '八歧大蛇': 1, '孟婆': 2}}, {'关卡': '御魂副本 第六层 ', '妖怪': {'雨女': 1, '孟婆': 1, '座敷童子': 1, '阎魔': 1, '巫蛊师': 1, '鸦天狗': 1, '八歧大蛇': 1, '骨女': 2}}, {'关卡': '御魂副本 第七层 ', '妖怪': {'丑时之女': 1, '凤凰火': 1, '食发鬼': 1, '山兔': 1, '酒吞童子': 1, '妖琴师': 1, '八歧大蛇': 1, '荒川之主': 2}}, {'关卡': '御魂副本 第八层 ', '妖怪': {'管狐': 1, '判官': 1, '饿鬼': 1, '蝴蝶精': 1, '白狼': 1, '椒图': 1, '八歧大蛇': 1, '茨木童子': 2}}, {'关卡': '御魂副本 第九层 ', '妖怪': {'椒图': 1, '萤草': 1, '鲤鱼精': 1, '狸猫': 1, '清姬': 1, '食梦貘': 1, '八歧大蛇': 1, '两面佛': 2}}, {'关卡': '御魂副本 第十层 ', '妖怪': {'二口女': 1, '觉': 1, '萤草': 1, '椒图': 1, '青行灯': 1, '酒吞童子': 1, '八歧大蛇': 1, '大天狗': 2}}, {'关卡': '业原火副本 贪之阵', '妖怪': {'萤草': 4, '妖狐': 1, '蝴蝶精': 1, '三尾狐': 1, '兵俑': 1, '业原火': 3}}, {'关卡': '业原火副本 嗔之阵', '妖怪': {'萤草': 4, '妖狐': 1, '蝴蝶精': 1, '三尾狐': 1, '兵俑': 1, '业原火': 3}}, {'关卡': '业原火副本 痴之阵', '妖怪': {'萤草': 4, '妖狐': 1, '蝴蝶精': 1, '椒图': 1, '三尾狐': 1, '兵俑': 1, '业原火': 3}}, {'关卡': '秘闻副本 红叶一层', '妖怪': {'管狐': 4, '饿鬼': 4, '鬼女红叶': 1, '觉': 3}}, {'关卡': '秘闻副本 红叶二层', '妖怪': {'管狐': 4, '饿鬼': 4, '鬼女红叶': 1, '跳跳妹妹': 1, '跳跳弟弟': 1, '跳跳哥哥': 1}}, {'关卡': '秘闻副本 红叶三层', '妖怪': {'管狐': 4, '饿鬼': 4, '鬼女红叶': 1, '首无': 2, '三尾狐': 1}}, {'关卡': '秘闻副本 红叶四层', '妖怪': {'管狐': 3, '天邪鬼黄': 1, '饿鬼': 3, '兵俑': 1, '鬼女红叶': 1, '鸦天狗': 2, '丑时之女': 1}}, {'关卡': '秘闻副本 红叶五层', '妖怪': {'管狐': 3, '天邪鬼黄': 1, '饿鬼': 3, '兵俑': 1, '鬼女红叶': 1, '铁鼠': 2, '骨女': 1}}, {'关卡': '秘闻副本 红叶六层', '妖怪': {'管狐': 3, '赤舌': 1, '饿鬼': 3, '椒图': 1, '鬼女红叶': 1, '雨女': 2, '雪女': 1}}, {'关卡': '秘闻副本 红叶七层', '妖怪': {'管狐': 3, '赤舌': 1, '饿鬼': 3, '椒图': 1, '鬼女红叶': 1, '吸血姬': 2, '狸猫': 1, '酒吞童子': 1}}, {'关卡': '秘闻副本 红叶八层', '妖怪': {'管狐': 3, '独眼小僧': 1, '饿鬼': 3, '犬神': 1, '鬼女红叶': 1, '兵俑': 1, '椒图': 1, '桃花妖': 1, '酒吞童子': 1}}, {'关卡': '秘闻副本 红叶九层', '妖怪': {'管狐': 3, '独眼小僧': 1, '饿鬼': 3, '犬神': 1, '椒图': 2, '鬼女红叶': 1, '酒吞童子': 1, '桃花妖': 1, '鸦天狗': 1, '丑时之女': 1}}, {'关卡': '秘闻副本 红叶十层', '妖怪': {'管狐': 3, '独眼小僧': 1, '饿鬼': 3, '犬神': 1, '椒图': 2, '兵俑': 1, '鬼女红叶': 1, '酒吞童子': 1, '桃花妖': 1, '般若': 1, '吸血姬': 1}}, {'关卡': '秘闻副本 妖刀一层', '妖怪': {'天邪鬼青': 4, '狸猫': 4, '妖刀姬': 1, '盗墓小鬼': 3}}, {'关卡': '秘闻副本 妖刀二层', '妖怪': {'天邪鬼青': 4, '狸猫': 4, '妖刀姬': 1, '蝴蝶精': 3}}, {'关卡': '秘闻副本 妖刀三层', '妖怪': {'天邪鬼青': 4, '狸猫': 4, '妖刀姬': 1, '雨女': 3}}, {'关卡': '秘闻副本 妖刀四层', '妖怪': {'天邪鬼青': 3, '涂壁': 1, '狸猫': 3, '蝴蝶精': 1, '妖刀姬': 1, '三尾狐': 3}}, {'关卡': '秘闻副本 妖刀五层', '妖怪': {'天邪鬼青': 3, '涂壁': 1, '狸猫': 3, '蝴蝶精': 1, '妖刀姬': 1, '傀儡师': 1, '二口女': 1, '骨女': 1}}, {'关卡': '秘闻副本 妖刀六层', '妖怪': {'天邪鬼青': 3, '天邪鬼绿': 1, '狸猫': 3, '鸦天狗': 1, '妖刀姬': 1, '桃花妖': 1, '樱花妖': 1, '清姬': 1}}, {'关卡': '秘闻副本 妖刀七层', '妖怪': {'天邪鬼青': 3, '天邪鬼绿': 1, '狸猫': 3, '鸦天狗': 1, '妖刀姬': 1, '鬼使黑': 1, '鬼使白': 1, '判官': 1}}, {'关卡': '秘闻副本 妖刀八层', '妖怪': {'天邪鬼青': 3, '九命猫': 1, '狸猫': 3, '鲤鱼精': 1, '河童': 1, '妖刀姬': 1, '大天狗': 1, '青行灯': 1}}, {'关卡': '秘闻副本 妖刀九层', '妖怪': {'天邪鬼青': 3, '九命猫': 1, '狸猫': 3, '鲤鱼精': 1, '河童': 1, '妖刀姬': 1, '大天狗': 1, '青行灯': 1, '童男': 2}}, {'关卡': '秘闻副本 妖刀十层', '妖怪': {'天邪鬼青': 2, '九命猫': 2, '狸猫': 3, '河童': 1, '椒图': 1, '鲤鱼精': 1, '妖刀姬': 1, '妖狐': 2, '桃花妖': 1, '大天狗': 1, '青行灯': 1}}, {'关卡': '秘闻副本 河童一层', '妖怪': {'盗墓小鬼': 1, '提灯小僧': 3, '童女': 1, '童男': 3, '河童': 1, '奉为达摩': 1, '招福达摩': 1, '大吉达摩': 1, '御行达摩': 1}}, {'关卡': '秘闻副本 河童二层', '妖怪': {'盗墓小鬼': 1, '提灯小僧': 3, '独眼小僧': 1, '山童': 3, '河童': 1, '白童子': 1, '黑童子': 1, '座敷童子': 1}}, {'关卡': '秘闻副本 河童三层', '妖怪': {'惠比寿': 1, '武士之灵': 3, '烟烟罗': 1, '食发鬼': 3, '河童': 1, '灯笼鬼': 2, '赤舌': 1}}, {'关卡': '秘闻副本 河童四层', '妖怪': {'镰鼬': 1, '黑豹': 3, '萤草': 1, '觉': 3, '河童': 1, '丑时之女': 2, '兵俑': 1}}, {'关卡': '秘闻副本 河童五层', '妖怪': {'天邪鬼黄': 1, '蝴蝶精': 2, '鬼女红叶': 1, '孟婆': 1, '妖琴师': 2, '山兔': 1, '河童': 1, '樱花妖': 1, '桃花妖': 1, '凤凰火': 1}}, {'关卡': '秘闻副本 河童六层', '妖怪': {'鬼使白': 1, '鬼使黑': 3, '座敷童子': 1, '古笼火': 3, '河童': 1, '天邪鬼青': 1, '天邪鬼赤': 1, '天邪鬼绿': 1, '天邪鬼黄': 1}}, {'关卡': '秘闻副本 河童七层', '妖怪': {'青行灯': 1, '管狐': 3, '茨木童子': 1, '首无': 3, '河童': 1, '雨女': 1, '判官': 1, '食梦貘': 1}}, {'关卡': '秘闻副本 河童八层', '妖怪': {'海坊主': 3, '青坊主': 3, '荒川之主': 2, '吸血姬': 2, '椒图': 2, '鲤鱼精': 2, '河童': 1}}, {'关卡': '秘闻副本 河童九层', '妖怪': {'雨女': 1, '青蛙瓷器': 3, '妖狐': 1, '妖刀姬': 1, '鲤鱼精': 2, '跳跳妹妹': 1, '萤草': 1, '河童': 1, '鸦天狗': 2, '阎魔': 1, '大天狗': 1}}, {'关卡': '秘闻副本 河童十层', '妖怪': {'兵俑': 1, '萤草': 3, '跳跳弟弟': 1, '小鹿男': 2, '桃花妖': 2, '椒图': 2, '河童': 1, '樱花妖': 1, '鲤鱼精': 1, '妖狐': 1, '花鸟卷': 1}}, {'关卡': '秘闻副本 雨女一层', '妖怪': {'盗墓小鬼': 3, '唐纸伞妖': 1, '九命猫': 3, '铁鼠': 1, '座敷童子': 3, '雨女': 1}}, {'关卡': '秘闻副本 雨女二层', '妖怪': {'盗墓小鬼': 3, '唐纸伞妖': 1, '九命猫': 3, '铁鼠': 1, '首无': 3, '雨女': 1}}, {'关卡': '秘闻副本 雨女三层', '妖怪': {'盗墓小鬼': 3, '唐纸伞妖': 1, '九命猫': 3, '铁鼠': 1, '武士之灵': 3, '雨女': 1}}, {'关卡': '秘闻副本 雨女四层', '妖怪': {'赤舌': 1, '唐纸伞妖': 3, '丑时之女': 1, '觉': 3, '骨女': 4, '雨女': 1}}, {'关卡': '秘闻副本 雨女五层', '妖怪': {'赤舌': 1, '唐纸伞妖': 3, '丑时之女': 1, '觉': 3, '烟烟罗': 4, '雨女': 1}}, {'关卡': '秘闻副本 雨女六层', '妖怪': {'赤舌': 1, '唐纸伞妖': 3, '丑时之女': 1, '觉': 3, '夜叉': 4, '雨女': 1}}, {'关卡': '秘闻副本 雨女七层', '妖怪': {'巫蛊师': 1, '鸦天狗': 3, '三尾狐': 1, '萤草': 2, '蝴蝶精': 1, '兵俑': 4, '雨女': 1}}, {'关卡': '秘闻副本 雨女八层', '妖怪': {'巫蛊师': 1, '鸦天狗': 3, '跳跳弟弟': 4, '椒图': 1, '河童': 5, '雨女': 1}}, {'关卡': '秘闻副本 雨女九层', '妖怪': {'巫蛊师': 1, '鸦天狗': 3, '鬼使白': 2, '清姬': 2, '判官': 1, '管狐': 5, '雨女': 1}}, {'关卡': '秘闻副本 雨女十层', '妖怪': {'巫蛊师': 1, '鸦天狗': 3, '吸血姬': 5, '童男': 1, '青蛙瓷器': 5, '雨女': 1}}, {'关卡': '秘闻副本 荒川一层', '妖怪': {'赤舌': 1, '灯笼鬼': 3, '武士之灵': 1, '寄生魂': 3, '盗墓小鬼': 3, '荒川之主': 1}}, {'关卡': '秘闻副本 荒川二层', '妖怪': {'赤舌': 1, '灯笼鬼': 3, '武士之灵': 1, '寄生魂': 3, '童女': 3, '荒川之主': 1}}, {'关卡': '秘闻副本 荒川三层', '妖怪': {'赤舌': 1, '灯笼鬼': 3, '武士之灵': 1, '寄生魂': 3, '管狐': 3, '荒川之主': 1}}, {'关卡': '秘闻副本 荒川四层', '妖怪': {'鲤鱼精': 1, '河童': 3, '海坊主': 1, '蝴蝶精': 3, '鸦天狗': 4, '荒川之主': 1}}, {'关卡': '秘闻副本 荒川五层', '妖怪': {'鲤鱼精': 1, '河童': 3, '海坊主': 1, '蝴蝶精': 3, '山兔': 4, '荒川之主': 1}}, {'关卡': '秘闻副本 荒川六层', '妖怪': {'鲤鱼精': 1, '河童': 3, '海坊主': 1, '蝴蝶精': 3, '雪女': 4, '荒川之主': 1}}, {'关卡': '秘闻副本 荒川七层', '妖怪': {'金鱼姬': 1, '古笼火': 3, '椒图': 1, '夜叉': 4, '清姬': 4, '荒川之主': 1}}, {'关卡': '秘闻副本 荒川八层', '妖怪': {'金鱼姬': 1, '古笼火': 3, '惠比寿': 1, '夜叉': 4, '海坊主': 5, '荒川之主': 1}}, {'关卡': '秘闻副本 荒川九层', '妖怪': {'金鱼姬': 1, '古笼火': 4, '烟烟罗': 2, '夜叉': 2, '荒川之主': 1, '石距': 1}}, {'关卡': '秘闻副本 荒川十层', '妖怪': {'金鱼姬': 1, '古笼火': 5, '大天狗': 1, '夜叉': 5, '荒川之主': 1, '桃花妖': 1, '雪女': 1, '青行灯': 1, '姑获鸟': 1, '惠比寿': 1}}, {'关卡': '秘闻副本 大天狗一层', '妖怪': {'帚神': 4, '三尾狐': 4, '首无': 3, '大天狗': 1}}, {'关卡': '秘闻副本 大天狗二层', '妖怪': {'天邪鬼黄': 1, '帚神': 3, '三尾狐': 4, '狸猫': 3, '大天狗': 1}}, {'关卡': '秘闻副本 大天狗三层', '妖怪': {'青蛙瓷器': 1, '帚神': 3, '三尾狐': 4, '山童': 3, '大天狗': 1}}, {'关卡': '秘闻副本 大天狗四层', '妖怪': {'椒图': 1, '帚神': 3, '三尾狐': 4, '独眼小僧': 1, '御行达摩': 4, '大天狗': 1}}, {'关卡': '秘闻副本 大天狗五层', '妖怪': {'椒图': 1, '帚神': 3, '秘卷书童': 1, '三尾狐': 3, '雪女': 1, '鸦天狗': 4, '大天狗': 1}}, {'关卡': '秘闻副本 大天狗六层', '妖怪': {'金鱼姬': 1, '帚神': 3, '秘卷书童': 1, '三尾狐': 3, '跳跳弟弟': 1, '鬼使白': 2, '清姬': 2, '大天狗': 1}}, {'关卡': '秘闻副本 大天狗七层', '妖怪': {'金鱼姬': 1, '帚神': 3, '镰鼬': 1, '夜叉': 5, '雨女': 1, '萤草': 4, '大天狗': 1}}, {'关卡': '秘闻副本 大天狗八层', '妖怪': {'童男': 1, '帚神': 3, '大天狗': 2, '镰鼬': 1, '妖狐': 4, '桃花妖': 5}}, {'关卡': '秘闻副本 大天狗九层', '妖怪': {'童男': 1, '帚神': 3, '大天狗': 2, '三尾狐': 1, '酒吞': 1, '黑晴明': 1, '雪女': 1}}, {'关卡': '秘闻副本 大天狗十层', '妖怪': {'武士之灵': 1, '帚神': 3, '椒图': 1, '吸血姬': 5, '黑晴明': 1, '大天狗': 1, '雪女': 1}}, {'关卡': '秘闻副本 姑获鸟一层', '妖怪': {'涂壁': 1, '帚神': 3, '蝴蝶精': 1, '觉': 3, '招福达摩': 1, '奉为达摩': 1, '御行达摩': 1, '姑获鸟': 1}}, {'关卡': '秘闻副本 姑获鸟二层', '妖怪': {'涂壁': 1, '帚神': 3, '蝴蝶精': 1, '觉': 3, '唐纸伞妖': 3, '姑获鸟': 1}}, {'关卡': '秘闻副本 姑获鸟三层', '妖怪': {'涂壁': 1, '帚神': 3, '蝴蝶精': 1, '觉': 3, '童男': 1, '童女': 1, '鸦天狗': 2, '姑获鸟': 1}}, {'关卡': '秘闻副本 姑获鸟四层', '妖怪': {'天邪鬼青': 1, '盗墓小鬼': 3, '跳跳哥哥': 1, '跳跳妹妹': 1, '跳跳弟弟': 2, '凤凰火': 1, '鸩': 1, '以津真天': 1, '大天狗': 1, '姑获鸟': 1}}, {'关卡': '秘闻副本 姑获鸟五层', '妖怪': {'天邪鬼青': 1, '盗墓小鬼': 3, '跳跳哥哥': 1, '跳跳妹妹': 1, '跳跳弟弟': 2, '萤草': 1, '白狼': 1, '天邪鬼黄': 1, '灯笼鬼': 1, '姑获鸟': 2}}, {'关卡': '秘闻副本 姑获鸟六层', '妖怪': {'天邪鬼青': 1, '盗墓小鬼': 3, '跳跳哥哥': 1, '跳跳妹妹': 1, '跳跳弟弟': 3, '樱花妖': 1, '鸩': 1, '鬼使白': 1, '清姬': 1, '姑获鸟': 1}}, {'关卡': '秘闻副本 姑获鸟七层', '妖怪': {'萤草': 1, '孟婆': 1, '白狼': 2, '凤凰火': 1, '判官': 3, '灯笼鬼': 1, '姑获鸟': 5}}, {'关卡': '秘闻副本 姑获鸟八层', '妖怪': {'萤草': 1, '孟婆': 2, '白狼': 2, '凤凰火': 1, '判官': 2, '络新妇': 2, '灯笼鬼': 1, '桃花妖': 2, '酒吞童子': 2, '姑获鸟': 2}}, {'关卡': '秘闻副本 姑获鸟九层', '妖怪': {'萤草': 1, '孟婆': 3, '白狼': 2, '凤凰火': 1, '判官': 2, '络新妇': 3, '镰鼬': 1, '桃花妖': 1, '九命猫': 2, '姑获鸟': 2}}, {'关卡': '秘闻副本 姑获鸟十层', '妖怪': {'萤草': 1, '孟婆': 2, '白狼': 2, '凤凰火': 1, '判官': 2, '络新妇': 2, '黑童子': 1, '一目连': 1, '吸血姬': 2, '姑获鸟': 2}}, {'关卡': '秘闻副本 镰鼬一层', '妖怪': {'蝴蝶精': 1, '提灯小僧': 3, '鬼使白': 1, '清姬': 3, '赤舌': 3, '镰鼬': 1}}, {'关卡': '秘闻副本 镰鼬二层', '妖怪': {'食发鬼': 1, '天邪鬼赤': 3, '鬼使黑': 1, '古笼火': 3, '管狐': 3, '镰鼬': 1}}, {'关卡': '秘闻副本 镰鼬三层', '妖怪': {'觉': 1, '盗墓小鬼': 3, '孟婆': 1, '巫蛊师': 3, '烟烟罗': 3, '镰鼬': 1}}, {'关卡': '秘闻副本 镰鼬四层', '妖怪': {'山童': 1, '天邪鬼青': 3, '青蛙瓷器': 1, '帚神': 3, '骨女': 2, '九命猫': 2, '镰鼬': 1}}, {'关卡': '秘闻副本 镰鼬五层', '妖怪': {'独眼小僧': 1, '鸦天狗': 3, '白狼': 1, '灯笼鬼': 2, '鲤鱼精': 2, '青行灯': 4, '镰鼬': 1}}, {'关卡': '秘闻副本 镰鼬六层', '妖怪': {'赤舌': 1, '三尾狐': 3, '跳跳妹妹': 1, '小松丸': 2, '夜叉': 2, '鸩': 5, '镰鼬': 1}}, {'关卡': '秘闻副本 镰鼬七层', '妖怪': {'妖琴师': 1, '跳跳弟弟': 2, '络新妇': 2, '跳跳哥哥': 1, '鬼女红叶': 2, '以津真天': 2, '镰鼬': 2, '河童': 4}}, {'关卡': '秘闻副本 镰鼬八层', '妖怪': {'金鱼姬': 1, '判官': 2, '狸猫': 2, '椒图': 1, '萤草': 5, '二口女': 5, '镰鼬': 1}}, {'关卡': '秘闻副本 镰鼬九层', '妖怪': {'妖狐': 3, '鲤鱼精': 2, '以津真天': 1, '鸦天狗': 3, '姑获鸟': 2, '万年竹': 2, '独眼小僧': 1, '奉为达摩': 1, '犬神': 1, '樱花妖': 1, '彼岸花': 1}}, {'关卡': '秘闻副本 镰鼬十层', '妖怪': {'海坊主': 3, '跳跳弟弟': 2, '花鸟卷': 1, '童男': 2, '童女': 2, '黑童子': 1, '阎魔': 1, '小鹿男': 3, '镰鼬': 3}}, {'关卡': '秘闻副本 小鹿男一层', '妖怪': {'帚神': 1, '天邪鬼黄': 3, '提灯小僧': 1, '唐纸伞妖': 3, '兵俑': 1, '小鹿男': 1}}, {'关卡': '秘闻副本 小鹿男二层', '妖怪': {'寄生魂': 1, '天邪鬼青': 3, '古笼火': 1, '灯笼鬼': 3, '鲤鱼精': 1, '河童': 2, '小鹿男': 1}}, {'关卡': '秘闻副本 小鹿男三层', '妖怪': {'觉': 1, '天邪鬼绿': 3, '跳跳妹妹': 1, '天邪鬼赤': 3, '蝴蝶精': 1, '萤草': 1, '独眼小僧': 1, '小鹿男': 1}}, {'关卡': '秘闻副本 小鹿男四层', '妖怪': {'赤舌': 3, '食发鬼': 1, '兔丸': 1, '帚神': 3, '萤草': 1, '跳跳弟弟': 2, '小鹿男': 1}}, {'关卡': '秘闻副本 小鹿男五层', '妖怪': {'食发鬼': 1, '提灯小僧': 3, '兔丸': 1, '山童': 2, '萤草': 1, '跳跳妹妹': 1, '白童子': 1, '跳跳弟弟': 1, '小鹿男': 1}}, {'关卡': '秘闻副本 小鹿男六层', '妖怪': {'食发鬼': 4, '兔丸': 4, '萤草': 1, '大天狗': 1, '雪女': 1, '匣中少女': 1, '小鹿男': 1}}, {'关卡': '秘闻副本 小鹿男七层', '妖怪': {'食梦貘': 1, '食发鬼': 3, '傀儡师': 1, '兔丸': 3, '萤草': 1, '白狼': 1, '妖刀姬': 1, '黑童子': 1, '书翁': 1, '小鹿男': 1}}, {'关卡': '秘闻副本 小鹿男八层', '妖怪': {'烟烟罗': 1, '食发鬼': 3, '万年竹': 1, '海坊主': 2, '兔丸': 2, '兵俑': 2, '彼岸花': 1, '跳跳弟弟': 1, '鲤鱼精': 1, '萤草': 1, '小鹿男': 1}}, {'关卡': '秘闻副本 小鹿男九层', '妖怪': {'烟烟罗': 1, '姑获鸟': 1, '孟婆': 2, '食发鬼': 2, '阎魔': 1, '白童子': 1, '兔丸': 1, '判官': 1, '山兔': 1, '黑童子': 1, '金鱼姬': 1, '跳跳哥哥': 1, '萤草': 1, '荒': 1, '小松丸': 1, '小鹿男': 1}}, {'关卡': '秘闻副本 小鹿男十层', '妖怪': {'烟烟罗': 1, '食发鬼': 2, '白童子': 2, '姑获鸟': 1, '妖琴师': 1, '蝴蝶精': 1, '山兔': 1, '独眼小僧': 1, '兔丸': 2, '小鹿男': 5, '吸血姬': 1, '桃花妖': 1, '萤草': 1, '椒图': 1, '黑童子': 1}}, {'关卡': '秘闻副本 海坊主一层', '妖怪': {'灯笼鬼': 3, '提灯小僧': 1, '帚神': 3, '涂壁': 1, '海坊主': 1, '天邪鬼黄': 2, '天邪鬼赤': 1}}, {'关卡': '秘闻副本 海坊主二层', '妖怪': {'跳跳犬': 3, '唐纸伞妖': 1, '寄生魂': 3, '饿鬼': 1, '海坊主': 1, '座敷童子': 2, '椒图': 1}}, {'关卡': '秘闻副本 海坊主三层', '妖怪': {'盗墓小鬼': 3, '河童': 5, '赤舌': 2, '鲤鱼精': 1, '海坊主': 1, '小鹿男': 1}}, {'关卡': '秘闻副本 海坊主四层', '妖怪': {'唐纸伞妖': 3, '武士之灵': 1, '提灯小僧': 2, '狸猫': 1, '河童': 1, '海坊主': 1, '鲤鱼精': 4}}, {'关卡': '秘闻副本 海坊主五层', '妖怪': {'雨女': 3, '天邪鬼青': 1, '天邪鬼黄': 1, '天邪鬼绿': 1, '天邪鬼赤': 2, '鸦天狗': 1, '海坊主': 1, '河童': 5}}, {'关卡': '秘闻副本 海坊主六层', '妖怪': {'九命猫': 1, '二口女': 1, '铁鼠': 1, '首无': 1, '管狐': 1, '山童': 2, '九尾狐': 2, '海坊主': 1, '鲤鱼精': 2, '河童': 3}}, {'关卡': '秘闻副本 海坊主七层', '妖怪': {'兵俑': 1, '跳跳弟弟': 2, '跳跳妹妹': 2, '夜叉': 4, '雨女': 2, '河童': 2, '海坊主': 1, '鲤鱼精': 1, '金鱼姬': 1}}, {'关卡': '秘闻副本 海坊主八层', '妖怪': {'夜叉': 1, '童男': 1, '童女': 1, '河童': 1, '首无': 1, '鲤鱼精': 1, '萤草': 2, '蝴蝶精': 1, '武士之灵': 1, '金鱼姬': 1, '海坊主': 1, '荒': 1, '玉藻前': 1, '镰鼬': 1, '辉夜姬': 1}}, {'关卡': '秘闻副本 海坊主九层', '妖怪': {'河童': 1, '兔丸': 2, '鸦天狗': 3, '鲤鱼精': 1, '清姬': 2, '鸩': 2, '判官': 1, '海坊主': 1, '樱花妖': 1, '百目鬼': 1, '黑童子': 3}}, {'关卡': '秘闻副本 海坊主十层', '妖怪': {'河童': 1, '管狐': 2, '金鱼姬': 1, '雨女': 2, '夜叉': 1, '妖琴师': 1, '般若': 1, '镰鼬': 1, '凤凰火': 1, '海坊主': 1, '樱花妖': 1, '匣中少女': 1, '黑童子': 3}}, {'关卡': '秘闻副本 青行灯一层', '妖怪': {'跳跳犬': 3, '赤舌': 1, '涂壁': 3, '寄生魂': 1, '灯笼鬼': 3, '青行灯': 1}}, {'关卡': '秘闻副本 青行灯二层', '妖怪': {'唐纸伞妖': 3, '提灯小僧': 1, '帚神': 3, '鸦天狗': 1, '狸猫': 2, '巫蛊师': 1, '青行灯': 1}}, {'关卡': '秘闻副本 青行灯三层', '妖怪': {'赤舌': 3, '三尾狐': 1, '童男': 3, '童女': 1, '古笼火': 2, '数珠': 1, '青行灯': 1}}, {'关卡': '秘闻副本 青行灯四层', '妖怪': {'天邪鬼黄': 3, '食发鬼': 1, '天邪鬼青': 2, '丑时之女': 1, '兵俑': 1, '觉': 4, '青行灯': 1}}, {'关卡': '秘闻副本 青行灯五层', '妖怪': {'提灯小僧': 3, '跳跳弟弟': 1, '天邪鬼绿': 2, '饿鬼': 2, '独眼小僧': 1, '青蛙瓷器': 2, '蝴蝶妖': 2, '青行灯': 1}}, {'关卡': '秘闻副本 青行灯六层', '妖怪': {'跳跳哥哥': 3, '首无': 1, '古笼火': 2, '管狐': 2, '山童': 1, '兔丸': 3, '鲤鱼精': 2, '青行灯': 1}}, {'关卡': '秘闻副本 青行灯七层', '妖怪': {'觉': 2, '山兔': 2, '萤草': 1, '首无': 2, '山童': 2, '椒图': 1, '青坊主': 2, '妖琴师': 2, '姑获鸟': 1, '青行灯': 1}}, {'关卡': '秘闻副本 青行灯八层', '妖怪': {'古笼火': 2, '鬼使黑': 1, '鬼使白': 1, '书翁': 1, '食梦貘': 1, '白狼': 1, '桃花妖': 1, '二口女': 1, '镰鼬': 1, '万年竹': 1, '姑获鸟': 1, '日和坊': 1, '鸩': 1, '白童子': 1, '两面佛': 1, '青行灯': 1}}, {'关卡': '秘闻副本 青行灯九层', '妖怪': {'山童': 2, '惠比寿': 1, '孟婆': 1, '小松丸': 1, '万年竹': 1, '金鱼姬': 1, '凤凰火': 1, '雨女': 1, '烟烟罗': 1, '青坊主': 1, '妖狐': 1, '日和坊': 1, '百目鬼': 1, '般若': 1, '椒图': 1, '大天狗': 1, '青行灯': 1}}, {'关卡': '秘闻副本 青行灯十层', '妖怪': {'食发鬼': 1, '蝴蝶精': 1, '孟婆': 1, '吸血姬': 1, '骨女': 1, '犬神': 1, '清姬': 1, '以津真天': 1, '妖琴师': 1, '丑时之女': 1, '青坊主': 1, '金鱼姬': 1, '日和坊': 1, '椒图': 1, '般若': 1, '大天狗': 1, '荒': 1, '青行灯': 1}}, {'关卡': '秘闻副本 吸血姬一层', '妖怪': {'盗墓小鬼': 3, '赤舌': 1, '壁涂': 3, '武士之灵': 1, '寄生魂': 3, '吸血姬': 1}}, {'关卡': '秘闻副本 吸血姬二层', '妖怪': {'灯笼鬼': 3, '古笼火': 1, '帚神': 3, '巫蛊师': 1, '提灯小鬼': 3, '吸血姬': 1}}, {'关卡': '秘闻副本 吸血姬三层', '妖怪': {'天邪鬼绿': 3, '河童': 1, '天邪鬼黄': 3, '狸猫': 1, '天邪鬼青': 2, '天邪鬼赤': 1, '吸血姬': 1}}, {'关卡': '秘闻副本 吸血姬四层', '妖怪': {'赤舌': 3, '食法鬼': 1, '觉': 2, '丑时之女': 1, '管狐': 1, '九命猫': 4, '吸血姬': 1}}, {'关卡': '秘闻副本 吸血姬五层', '妖怪': {'跳跳犬': 3, '犬神': 1, '鸩': 2, '清姬': 2, '以津真天': 1, '傀儡师': 2, '三尾狐': 2, '吸血姬': 1}}, {'关卡': '秘闻副本 吸血姬六层', '妖怪': {'管狐': 3, '妖狐': 1, '小松丸': 2, '二口女': 2, '弈': 1, '跳跳妹妹': 2, '跳跳弟弟': 2, '跳跳哥哥': 1, '吸血姬': 1}}, {'关卡': '秘闻副本 吸血姬七层', '妖怪': {'海坊主': 2, '夜叉': 2, '金鱼姬': 1, '武士之灵': 2, '骨女': 2, '兵俑': 1, '椒图': 1, '饿鬼': 2, '鸦天狗': 2, '吸血姬': 1}}, {'关卡': '秘闻副本 吸血姬八层', '妖怪': {'孟婆': 2, '烟烟罗': 2, '雪童子': 1, '般若': 1, '鬼女红叶': 2, '络新妇': 2, '青行灯': 1, '黑童子': 2, '小鹿男': 2, '匣中少女': 1, '吸血姬': 1}}, {'关卡': '秘闻副本 吸血姬九层', '妖怪': {'弈': 5, '妖琴师': 1, '鬼使白': 2, '清姬': 2, '金鱼姬': 1, '数珠': 1, '花鸟卷': 1, '跳跳弟弟': 1, '椒图': 1, '荒川': 1, '万年竹': 1, '吸血姬': 1}}, {'关卡': '秘闻副本 吸血姬十层', '妖怪': {'青蛙瓷器': 5, '童男': 1, '鬼使白': 1, '鬼使黑': 1, '黑童子': 1, '白童子': 1, '判官': 1, '阎魔': 1, '鸩': 1, '日和坊': 1, '山风': 1, '樱花妖': 1, '雪童子': 1, '吸血姬': 1}}, {'关卡': '秘闻副本 妖狐一层', '妖怪': {'灯笼鬼': 3, '提灯小僧': 1, '天邪鬼绿': 3, '天邪鬼赤': 1, '涂壁': 3, '妖狐': 1}}, {'关卡': '秘闻副本 妖狐二层', '妖怪': {'盗墓小鬼': 3, '赤舌': 1, '寄生魂': 3, '武士之灵': 1, '蝴蝶精': 1, '妖狐': 1, '食发鬼': 1, '独眼小僧': 1}}, {'关卡': '秘闻副本 妖狐三层', '妖怪': {'唐纸伞妖': 3, '鸦天狗': 1, '跳跳弟弟': 3, '跳跳妹妹': 1, '妖狐': 1, '小袖之手': 1, '兔丸': 2}}, {'关卡': '秘闻副本 妖狐四层', '妖怪': {'帚神': 3, '雨女': 1, '青蛙瓷器': 1, '天邪鬼黄': 2, '首无': 1, '妖狐': 1, '山童': 4}}, {'关卡': '秘闻副本 妖狐五层', '妖怪': {'天邪鬼青': 3, '跳跳妹妹': 1, '鲤鱼精': 1, '狸猫': 2, '天邪鬼赤': 1, '天邪鬼黄': 1, '妖狐': 1, '九命猫': 2, '三尾狐': 2}}, {'关卡': '秘闻副本 妖狐六层', '妖怪': {'狸猫': 3, '兵俑': 1, '山兔': 1, '萤草': 2, '丑时之女': 2, '妖狐': 1, '管狐': 3, '饿鬼': 2}}, {'关卡': '秘闻副本 妖狐七层', '妖怪': {'山童': 2, '座敷童子': 2, '椒图': 1, '铁鼠': 1, '童男': 1, '童女': 2, '河童': 2, '妖狐': 1, '妖琴师': 1, '姑获鸟': 1, '雪女': 1, '桃花妖': 1}}, {'关卡': '秘闻副本 妖狐八层', '妖怪': {'白童子': 1, '黑童子': 4, '犬神': 1, '般若': 1, '樱花妖': 1, '络新妇': 1, '二口女': 2, '妖狐': 1, '傀儡师': 2, '鬼女红叶': 2, '骨女': 1}}, {'关卡': '秘闻副本 妖狐九层', '妖怪': {'御馔津': 1, '山兔': 5, '书翁': 1, '小松丸': 2, '兔丸': 2, '以津真天': 1, '妖狐': 1, '百目鬼': 1, '跳跳弟弟': 1, '丑时之女': 1, '妖刀姬': 1, '食梦貘': 1}}, {'关卡': '秘闻副本 妖狐十层', '妖怪': {'跳跳妹妹': 1, '跳跳哥哥': 5, '孟婆': 1, '姑获鸟': 1, '烟烟罗': 1, '小袖之手': 1, '青蛙瓷器': 1, '妖琴师': 1, '妖狐': 1, '海坊主': 1, '御馔津': 1, '兵俑': 1, '般若': 1, '黑童子': 1}}, {'关卡': '秘闻副本 清姬一层', '妖怪': {'跳跳犬': 13, '灯笼鬼': 1, '清姬': 1}}, {'关卡': '秘闻副本 清姬二层', '妖怪': {'盗墓小鬼': 3, '唐纸伞妖': 1, '提灯小僧': 3, '赤舌': 1, '樱花妖': 4, '独眼小僧': 1, '清姬': 1}}, {'关卡': '秘闻副本 清姬三层', '妖怪': {'帚神': 3, '三尾狐': 2, '赤舌': 4, '武士之灵': 1, '灯笼鬼': 1, '黑童子': 1, '座敷童子': 1, '清姬': 1}}, {'关卡': '秘闻副本 清姬四层', '妖怪': {'三尾狐': 3, '武士之灵': 1, '饿鬼': 3, '巫蛊师': 1, '山童': 3, '鸦天狗': 2, '清姬': 1}}, {'关卡': '秘闻副本 清姬五层', '妖怪': {'跳跳弟弟': 3, '跳跳妹妹': 1, '狸猫': 4, '兵俑': 1, '九命猫': 4, '觉': 1, '清姬': 1}}, {'关卡': '秘闻副本 清姬六层', '妖怪': {'武士之灵': 3, '巫蛊师': 1, '骨女': 4, '傀儡师': 1, '二口女': 5, '清姬': 1}}, {'关卡': '秘闻副本 清姬七层', '妖怪': {'首无': 5, '烟烟罗': 1, '判官': 3, '络新妇': 2, '人面树': 1, '二口女': 2, '鬼使白': 2, '凤凰火': 1, '清姬': 1}}, {'关卡': '秘闻副本 清姬八层', '妖怪': {'小袖之手': 4, '烟烟罗': 1, '二口女': 2, '络新妇': 2, '樱花妖': 1, '妖狐': 1, '判官': 1, '鬼女红叶': 2, '鸩': 1, '傀儡师': 1, '清姬': 1}}, {'关卡': '秘闻副本 清姬九层', '妖怪': {'赤舌': 2, '觉': 3, '薰': 1, '鬼使白': 2, '骨女': 2, '以津真天': 1, '人面树': 1, '鸩': 1, '鬼女红叶': 2, '两面佛': 1, '樱花妖': 1, '清姬': 1}}, {'关卡': '秘闻副本 清姬十层', '妖怪': {'数珠': 4, '青坊主': 1, '孟婆': 1, '小袖之手': 1, '人面树': 1, '鬼女红叶': 2, '骨女': 1, '凤凰火': 1, '百目鬼': 1, '椒图': 1, '鸩': 1, '山风': 1, '清姬': 1}}, {'关卡': '秘闻副本 雪童子一层', '妖怪': {'跳跳犬': 3, '寄生魂': 1, '帚神': 3, '童女': 1, '涂壁': 3, '雪童子': 1}}, {'关卡': '秘闻副本 雪童子二层', '妖怪': {'灯笼鬼': 3, '提灯小僧': 1, '唐纸伞妖': 3, '独眼小僧': 1, '山童': 3, '雪童子': 1}}, {'关卡': '秘闻副本 雪童子三层', '妖怪': {'盗墓小鬼': 3, '古笼火': 1, '天邪鬼赤': 3, '首无': 1, '天邪鬼绿': 1, '天邪鬼黄': 1, '天邪鬼青': 1, '雪童子': 1}}, {'关卡': '秘闻副本 雪童子四层', '妖怪': {'寄生魂': 3, '武士之灵': 1, '童女': 2, '童男': 1, '食发鬼': 1, '饿鬼': 4, '雪童子': 1}}, {'关卡': '秘闻副本 雪童子五层', '妖怪': {'跳跳妹妹': 3, '跳跳哥哥': 1, '萤草': 2, '蝴蝶精': 2, '椒图': 1, '鸦天狗': 2, '管狐': 2, '雪童子': 1}}, {'关卡': '秘闻副本 雪童子六层', '妖怪': {'九命猫': 3, '犬神': 1, '骨女': 2, '吸血姬': 2, '清姬': 1, '桃花妖': 2, '三尾狐': 2, '般若': 1, '雪童子': 1}}, {'关卡': '秘闻副本 雪童子七层', '妖怪': {'傀儡师': 2, '烟烟罗': 2, '彼岸花': 1, '座敷童子': 1, '山兔': 1, '姑获鸟': 2, '食发鬼': 1, '鸩': 3, '日和坊': 2, '雪童子': 1}}, {'关卡': '秘闻副本 雪童子八层', '妖怪': {'觉': 2, '首无': 2, '惠比寿': 1, '蝴蝶精': 2, '管狐': 3, '樱花妖': 1, '匣中少女': 1, '黑童子': 1, '金鱼姬': 1, '跳跳弟弟': 1, '桃花妖': 1, '雪童子': 1}}, {'关卡': '秘闻副本 雪童子九层', '妖怪': {'白狼': 5, '辉夜姬': 1, '鬼使白': 3, '鬼女红叶': 2, '清姬': 1, '跳跳哥哥': 1, '桃花妖': 1, '妖刀姬': 1, '鬼使黑': 1, '雪女': 1, '雪童子': 1}}, {'关卡': '秘闻副本 雪童子十层', '妖怪': {'雪女': 5, '般若': 1, '兵俑': 2, '姑获鸟': 3, '童女': 1, '樱花妖': 1, '山风': 1, '犬神': 1, '小松丸': 1, '镰鼬': 1, '雪童子': 1}}];
+
+
+	$("#submit").click(function() {
+		monsterNeededNameList = [];
+		monsterNeededNumList = [];
+		miwenList = [];
+		for(var i = 0; i < monsterNum; i++){
+			monsterNeededNameList.push(parseInt($(".monster-select:eq("+i+")").val()));
+			monsterNeededNumList.push(parseInt($(".monster-number:eq("+i+")").val()));
+		}
+		enableChallenge = $("#enable-challenge").val() == "0"?false:true;
+		tansuofuben = parseInt($("#tansuofuben").val());
+		yuhunfuben = parseInt($("#yuhunfuben").val());
+		for (var i = 0; i < 15; i++) {
+			miwenList.push(parseInt($(".miwen:eq(" + i + ")").val()));
+		}
+		data = {
+			monsterName:monsterNeededNameList,
+			monsterNum:monsterNeededNumList,
+			enableChallenge:enableChallenge,
+			yuhun:yuhunfuben,
+			tansuo:tansuofuben,
+			miwen:miwenList
+		}
+		$.cookie('previous',JSON.stringify(data),{ expires: 365, path: "/", domain: window.DomainName });
+		$.ajax({
+			url: "api/index/opt",
+			type: "post",
+			data: data,
+
+			success: function(data) {
+				if (data.info == null) {
+					alert("无效输入或无解！请注意您的筛选器配置");
+				} else {		
+					$("#opt-panel").slideDown();
+					$("#opt-result").empty();			
+					$("#opt-result").append(template("opt-result-script",{data:data,monsterNeededNameList:monsterNeededNameList,monsters:monsters,places:places}));
+				}
+			}
+		});
+	});
+
+	
+</script>
+</body>
+</html>

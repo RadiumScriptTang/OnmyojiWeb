@@ -9,4 +9,8 @@ class Index extends Controller
     {
         return $this->fetch();
     }
+    public function scholarship()
+    {
+    	return $this->fetch();
+    }
 }

@@ -17,5 +17,7 @@ return [
         ':id'   => ['index/hello', ['method' => 'get'], ['id' => '\d+']],
         ':name' => ['index/hello', ['method' => 'post']],
     ],
-
+     '__alias__' => [
+     	'vote' => 'index/index/scholarship'
+     ]
 ];

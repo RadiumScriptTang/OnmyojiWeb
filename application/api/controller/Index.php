@@ -2,6 +2,7 @@
 namespace app\api\controller;
 
 use think\Controller;
+use app\api\model\Review;
 
 
 /**
@@ -98,5 +99,13 @@ class Index extends Controller
         // }
         curl_close($ch);
         return $data;
+    }
+    public function review()
+    {
+    	$data = input();
+    	foreach($data["data"] as $line){
+    		Review::create($line);
+    	}
+    	return ["code" => 0, "msg" => "success","data" => $data];
     }
 }

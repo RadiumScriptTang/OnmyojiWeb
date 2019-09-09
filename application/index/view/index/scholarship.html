@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>奖学金评比</title>
+	<link rel="stylesheet" href="__CSS__/bootstrap.min.css?v=1">
+	<script src="__JS__/jquery.min.js"></script>
+	<script src="__JS__/bootstrap.min.js"></script>
+	<style>
+
+
+input[type=checkbox], input[type=radio] {
+    border: 2px solid #4caf50;
+}
+input[type=radio] {
+    border-radius: 50%;
+}
+input[type=checkbox], input[type=radio] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    vertical-align: -0.8rem;
+    transition: all .15s ease-out 0s;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin: .4rem;
+    outline: none;
+    border-radius: 10%;
+}
+user agent stylesheet
+input[type="radio" i] {
+    margin: 3px 3px 0px 5px;
+}
+user agent stylesheet
+input[type="radio" i] {
+    -webkit-appearance: radio;
+    box-sizing: border-box;
+}
+user agent stylesheet
+input[type="radio" i], input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    margin: 3px 0.5ex;
+    padding: initial;
+    border: initial;
+}
+user agent stylesheet
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+user agent stylesheet
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+user agent stylesheet
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+table {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+}
+input[type=checkbox]:checked, input[type=checkbox]:indeterminate, input[type=radio]:checked:before {
+    background: #4caf50;
+}
+input[type=radio]:checked:before {
+    transform: scale(1);
+}
+input[type=radio]:before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 3px;
+    transform: scale(0);
+    transition: all ease-out 250ms;
+}
+	</style>
+</head>
+<body>
+	<center><h1>2018-2019年度上海财经大学16计科班奖学金德育评比</h1></center>
+	<div class="container">
+		<table class="table table-bordered table-hover table-striped">
+			<thead>
+				<td>姓名</td>
+				<td>13</td>
+				<td>14</td>
+				<td>15</td>
+			</thead>
+			<tbody id="t-body">
+			</tbody>
+				<script id="t-body-script" type="text/html">
+					{{ each students name}}
+						<tr>
+							<td>{{ name }}</td>
+							<td><input type="radio" name="{{ name }}" class="" value="13">13分</td>
+							<td><input type="radio" name="{{ name }}" class="" value="14">14分</td>
+							<td><input type="radio" name="{{ name }}" class="" value="15" checked>15分</td>
+						</tr>
+					{{ /each }}
+				</script>
+		</table>
+
+	</div>
+		<center>
+			<div class="form-group container col-sm-6 col-lg-6">
+	    		<label for="email" class="control-label">您的学号是</label>	
+				<input type="number" class="form-control monster-number" id="stu-id" style="width: auto; display: inline;">
+				    		
+			</div>
+		</center>
+		<center>
+			<button class="btn btn-primary" id="btn-submit">提交</button>
+		</center>
+<script src="__JS__/template.js"></script>
+<script src="__JS__/jquery.cookie.js"></script>
+<script>
+	var students = ['马文璇', '戴晓东', '刘宇涵', '王璐', '张子涵', '游家振', '于铜江', '宁振艺', '顾灏', '何汐', '连雷云', '刘凡', '罗怡沁', '施嘉雯', '徐雨超', '袁嘉诚', '朱侯青晨', '崔明豪', '黄帅', '刘正浩', '时晨', '赵一', '耿士奇', '马琪森', '陈彦霖', '冉颖', '周枫林', '李双伶', '周天楠', '陈博', '何昱成', '陆景瑞', '翁昊凡', '吴楷文', '黄坤', '刘海瑞', '雷帅', '张光平', '刘赟', '杨倩文'];
+	$("#t-body").append(template("t-body-script",{students:students}));
+	$("#btn-submit").click(function() {
+		var stuId = $("#stu-id").val();
+		if (stuId < 1000000000 || stuId > 9999999999) {
+			alert("学号有误！");
+			return;
+		}
+		if ($.cookie("vote") == "1") {
+			alert("您已投票，请勿重复");
+			return;
+		}
+		//取值
+		review = [];
+		for (var i = 0; i < students.length; i++) {
+			review.push({name:students[i],score:parseInt($('input[name="' + students[i] + '"]:checked').val()),reviewer:parseInt(stuId)});
+		}
+		console.log(review);
+		$.ajax({
+			url: "/api/index/review",
+			data: {data:review},
+			type: "post",
+
+			success: function(data) {
+				alert("投票成功");
+				console.log(data);
+				$.cookie("vote","1");
+			},
+			error: function(data) {
+				alert("您已投过票");
+			}
+		})
+	})
+
+</script>
+</body>
+</html>
